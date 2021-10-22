@@ -1,0 +1,30 @@
+@import "header.scss";
+@import "section_1.scss";
+@import "section_2.scss";
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Miniver&family=Mr+Dafoe&display=swap");
+@font-face {
+	font-family: Caviar Dreams;
+	src: url("../fonts/CaviarDreams.ttf");
+	font-weight: normal;
+}
+@font-face {
+	font-family: Caviar Dreams;
+	src: url("../fonts/Caviar_Dreams_Bold.ttf");
+	font-weight: bold;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	img {
+		display: block;
+	}
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
