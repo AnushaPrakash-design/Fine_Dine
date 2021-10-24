@@ -1,0 +1,93 @@
+.section_2 {
+  min-height: 200vh;
+  background-color: #0b1315; }
+  .section_2 h5 {
+    padding-top: 16vh;
+    padding-bottom: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Miniver;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    color: #c9ab81; }
+  .section_2 .title_Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px; }
+    .section_2 .title_Wrapper h3 {
+      font-family: Caviar Dreams;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 31px;
+      line-height: 39px;
+      display: flex;
+      text-align: center;
+      letter-spacing: 0.25em;
+      color: #c9ab81; }
+    .section_2 .title_Wrapper .left_svg {
+      padding: 0px 13.6vw 0px 9.1vw; }
+    .section_2 .title_Wrapper .right_svg {
+      padding: 0px 9.1vw 0px 13.6vw; }
+  .section_2 p {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+    padding: 0px 12.1vw 90px; }
+  .section_2 .top {
+    position: relative;
+    width: 100%;
+    height: 41vh;
+    display: block; }
+    .section_2 .top .top_image {
+      position: absolute;
+      top: 0;
+      left: 8.1vw;
+      width: 84.1vw;
+      height: 100%;
+      object-fit: cover;
+      object-position: 10% 80%; }
+    .section_2 .top .top_img_overlay {
+      position: absolute;
+      width: 84.1vw;
+      height: 100%;
+      top: 0;
+      left: 8.1vw;
+      background: radial-gradient(60.18% 58.9% at 50% 50%, rgba(11, 19, 21, 0) 40.54%, #0b1315 100%); }
+  .section_2 .pattern {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0px; }
+    .section_2 .pattern .pattern_1 {
+      transform: scale(0.95);
+      margin: 0px auto; }
+  .section_2 .bottom {
+    position: relative;
+    width: 100%;
+    height: 41vh;
+    display: block; }
+    .section_2 .bottom .bottom_image {
+      position: absolute;
+      top: 0;
+      left: 8.1vw;
+      width: 84.1vw;
+      height: 100%;
+      object-fit: cover;
+      object-position: 10% 80%; }
+    .section_2 .bottom .bottom_img_overlay {
+      position: absolute;
+      width: 84.1vw;
+      height: 100%;
+      top: 0;
+      left: 8.1vw;
+      background: radial-gradient(60.18% 58.9% at 50% 50%, rgba(11, 19, 21, 0) 40.54%, #0b1315 100%); }
