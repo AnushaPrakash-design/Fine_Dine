@@ -1,27 +1,28 @@
-.header {
+header {
 	min-height: 70px;
 	width: 100%;
 	background-color: #0b1315;
-	header {
-		.nav_bar {
-			display: flex;
-			align-items: center;
-			padding: 3vh 11vw;
-			height: 70px;
-			h5 {
-				font-family: Mr Dafoe;
-				font-weight: normal;
-				font-size: 25px;
-				line-height: 84.5%;
-				color: #c9ab81;
-			}
-			img {
-				margin-left: auto;
-			}
+	// border-bottom: 2px solid #715b3e;
+	nav {
+		display: flex;
+		align-items: center;
+		padding: 3vh 11vw;
+		height: 70px;
+		h5 {
+			font-family: Mr Dafoe;
+			font-weight: normal;
+			font-size: 25px;
+			color: #c9ab81;
+			// line-height: 120%;
+		}
+		img {
+			margin-left: auto;
 		}
 	}
 }
+
 .line {
+	display: block;
 	width: 100%;
 	height: 2px;
 	background-color: #715b3e;

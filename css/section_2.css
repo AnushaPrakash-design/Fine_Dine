@@ -1,53 +1,48 @@
 .section_2 {
-  min-height: 200vh;
   background-color: #0b1315; }
   .section_2 h5 {
     padding-top: 16vh;
-    padding-bottom: 13px;
+    margin: 0 auto 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: Miniver;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 19px;
-    line-height: 28px;
+    line-height: 120%;
     color: #c9ab81; }
   .section_2 .title_Wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 40px; }
+    margin-bottom: 40px; }
     .section_2 .title_Wrapper h3 {
       font-family: Caviar Dreams;
-      font-style: normal;
       font-weight: 700;
       font-size: 31px;
       line-height: 39px;
-      display: flex;
       text-align: center;
       letter-spacing: 0.25em;
-      color: #c9ab81; }
-    .section_2 .title_Wrapper .left_svg {
-      padding: 0px 13.6vw 0px 9.1vw; }
+      color: #c9ab81;
+      width: min-content; }
+    .section_2 .title_Wrapper .left_svg,
     .section_2 .title_Wrapper .right_svg {
-      padding: 0px 9.1vw 0px 13.6vw; }
+      margin: 0 auto; }
   .section_2 p {
     font-family: Josefin Sans;
-    font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 19px;
     line-height: 29px;
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: -0.04em;
     color: #ffffff;
-    padding: 0px 12.1vw 90px; }
+    margin: 0px 12.1vw 90px; }
   .section_2 .top {
     position: relative;
     width: 100%;
     height: 41vh;
-    display: block; }
+    display: block;
+    margin-bottom: 60px; }
     .section_2 .top .top_image {
       position: absolute;
       top: 0;
@@ -66,8 +61,7 @@
   .section_2 .pattern {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 60px 0px; }
+    justify-content: center; }
     .section_2 .pattern .pattern_1 {
       transform: scale(0.95);
       margin: 0px auto; }
@@ -75,7 +69,8 @@
     position: relative;
     width: 100%;
     height: 41vh;
-    display: block; }
+    display: block;
+    margin-top: 60px; }
     .section_2 .bottom .bottom_image {
       position: absolute;
       top: 0;

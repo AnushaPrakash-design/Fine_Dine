@@ -1,23 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Miniver&family=Mr+Dafoe&display=swap");
-.header {
+header {
   min-height: 70px;
   width: 100%;
   background-color: #0b1315; }
-  .header header .nav_bar {
+  header nav {
     display: flex;
     align-items: center;
     padding: 3vh 11vw;
     height: 70px; }
-    .header header .nav_bar h5 {
+    header nav h5 {
       font-family: Mr Dafoe;
       font-weight: normal;
       font-size: 25px;
-      line-height: 84.5%;
       color: #c9ab81; }
-    .header header .nav_bar img {
+    header nav img {
       margin-left: auto; }
 
 .line {
+  display: block;
   width: 100%;
   height: 2px;
   background-color: #715b3e; }
@@ -29,7 +29,6 @@
   overflow: hidden; }
   .section_1 img {
     position: absolute;
-    width: 100%;
     height: 100%;
     width: initial;
     left: initial;
@@ -45,29 +44,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 22vh; }
+    margin-top: 22vh; }
     .section_1 .content_wrapper h1 {
       font-family: Mr Dafoe;
       font-weight: normal;
       font-size: 81.4026px;
       line-height: 84.5%;
-      display: flex;
       text-align: center;
+      width: min-content;
       color: #c9ab81;
-      padding: 0px 26.6vw 40px; }
+      margin: 0 auto 40px; }
     .section_1 .content_wrapper p {
       font-family: Josefin Sans;
       font-weight: 300;
       font-size: 23px;
       line-height: 33px;
-      display: flex;
       text-align: center;
       letter-spacing: -0.04em;
       color: #ffffff;
-      padding: 0px 10vw 40px; }
+      margin: 0px 10.7vw 40px; }
     .section_1 .content_wrapper .btn {
       cursor: pointer;
-      display: inline-block;
       background-color: transparent;
       border: 0.804721px solid #c9ab81;
       padding: 16px 33px 12px;
@@ -79,55 +76,50 @@
       color: #ffffff; }
 
 .section_2 {
-  min-height: 200vh;
   background-color: #0b1315; }
   .section_2 h5 {
     padding-top: 16vh;
-    padding-bottom: 13px;
+    margin: 0 auto 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: Miniver;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 19px;
-    line-height: 28px;
+    line-height: 120%;
     color: #c9ab81; }
   .section_2 .title_Wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 40px; }
+    margin-bottom: 40px; }
     .section_2 .title_Wrapper h3 {
       font-family: Caviar Dreams;
-      font-style: normal;
       font-weight: 700;
       font-size: 31px;
       line-height: 39px;
-      display: flex;
       text-align: center;
       letter-spacing: 0.25em;
-      color: #c9ab81; }
-    .section_2 .title_Wrapper .left_svg {
-      padding: 0px 13.6vw 0px 9.1vw; }
+      color: #c9ab81;
+      width: min-content; }
+    .section_2 .title_Wrapper .left_svg,
     .section_2 .title_Wrapper .right_svg {
-      padding: 0px 9.1vw 0px 13.6vw; }
+      margin: 0 auto; }
   .section_2 p {
     font-family: Josefin Sans;
-    font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 19px;
     line-height: 29px;
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: -0.04em;
     color: #ffffff;
-    padding: 0px 12.1vw 90px; }
+    margin: 0px 12.1vw 90px; }
   .section_2 .top {
     position: relative;
     width: 100%;
     height: 41vh;
-    display: block; }
+    display: block;
+    margin-bottom: 60px; }
     .section_2 .top .top_image {
       position: absolute;
       top: 0;
@@ -146,8 +138,7 @@
   .section_2 .pattern {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 60px 0px; }
+    justify-content: center; }
     .section_2 .pattern .pattern_1 {
       transform: scale(0.95);
       margin: 0px auto; }
@@ -155,7 +146,8 @@
     position: relative;
     width: 100%;
     height: 41vh;
-    display: block; }
+    display: block;
+    margin-top: 60px; }
     .section_2 .bottom .bottom_image {
       position: absolute;
       top: 0;
@@ -173,47 +165,39 @@
       background: radial-gradient(60.18% 58.9% at 50% 50%, rgba(11, 19, 21, 0) 40.54%, #0b1315 100%); }
 
 .section_3 {
-  min-height: 114.4vh;
-  width: 100%; }
-  .section_3 .content_wrapper {
-    min-height: 57.2vh;
-    width: 100%;
-    background-color: #0f1d22; }
-    .section_3 .content_wrapper img {
-      margin: 0px auto;
-      padding-top: 70px;
-      padding-bottom: 50px; }
-    .section_3 .content_wrapper p {
-      font-family: Miniver;
-      font-weight: 300;
-      font-size: 22px;
-      line-height: 39px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      letter-spacing: -0.04em;
-      color: #ffffff;
-      padding: 0px 11vw 50px; }
-    .section_3 .content_wrapper h5 {
-      font-family: Caviar Dreams;
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 39px;
-      letter-spacing: 0.1em;
-      color: #c9ab81;
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-    .section_3 .content_wrapper h6 {
-      font-family: Josefin Sans;
-      font-weight: 400;
-      font-size: 19px;
-      line-height: 39px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #ffffff;
-      padding-bottom: 50px; }
+  background-color: #0f1d22; }
+  .section_3 .content_wrapper img {
+    margin: 0px auto 50px;
+    padding-top: 70px; }
+  .section_3 .content_wrapper p {
+    font-family: Miniver;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+    margin: 0px 11vw 50px; }
+  .section_3 .content_wrapper h5 {
+    font-family: Caviar Dreams;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 39px;
+    letter-spacing: 0.1em;
+    color: #c9ab81;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .section_3 .content_wrapper h6 {
+    font-family: Josefin Sans;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin-bottom: 50px; }
   .section_3 .image_wrapper {
     width: 100%;
     min-height: 57.2vh;
@@ -234,6 +218,83 @@
       width: 100%;
       height: 100%;
       background: rgba(11, 19, 21, 0.3); }
+  .section_3 .section_3a {
+    background-color: #0b1315;
+    padding-top: 120px; }
+    .section_3 .section_3a .bottom_img_wrapper {
+      position: relative;
+      width: 100%;
+      height: 26.9vh;
+      display: block; }
+      .section_3 .section_3a .bottom_img_wrapper .bottom_img_ {
+        position: absolute;
+        top: 0;
+        left: 12.8vw;
+        width: 74.2vw;
+        height: 100%;
+        object-fit: cover;
+        object-position: 5% 60%; }
+      .section_3 .section_3a .bottom_img_wrapper .bottom_img_overlay {
+        position: absolute;
+        top: 0;
+        left: 12.8vw;
+        width: 74.2vw;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.2); }
+  .section_3 .cnt_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .section_3 .cnt_wrapper h5 {
+      padding-top: 16vh;
+      margin: 0 auto 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Miniver;
+      font-weight: normal;
+      font-size: 19px;
+      line-height: 120%;
+      color: #c9ab81; }
+    .section_3 .cnt_wrapper .title_Wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 40px; }
+      .section_3 .cnt_wrapper .title_Wrapper h3 {
+        font-family: Caviar Dreams;
+        font-weight: 700;
+        font-size: 31px;
+        line-height: 39px;
+        text-align: center;
+        letter-spacing: 0.09em;
+        color: #c9ab81;
+        width: min-content; }
+      .section_3 .cnt_wrapper .title_Wrapper .left_svg,
+      .section_3 .cnt_wrapper .title_Wrapper .right_svg {
+        margin: 0 auto; }
+    .section_3 .cnt_wrapper p {
+      font-family: Josefin Sans;
+      font-weight: normal;
+      font-size: 19px;
+      line-height: 29px;
+      text-align: center;
+      letter-spacing: -0.04em;
+      color: #ffffff;
+      margin: 0px 12.1vw 50px; }
+    .section_3 .cnt_wrapper .btn {
+      cursor: pointer;
+      background-color: transparent;
+      border: 0.804721px solid #c9ab81;
+      padding: 16px 33px 12px;
+      font-family: Josefin Sans;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 14px;
+      letter-spacing: 0.1em;
+      color: #ffffff;
+      margin-bottom: 100px; }
 
 @font-face {
   font-family: Caviar Dreams;

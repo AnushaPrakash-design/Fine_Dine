@@ -1,22 +1,22 @@
-.header {
+header {
   min-height: 70px;
   width: 100%;
   background-color: #0b1315; }
-  .header header .nav_bar {
+  header nav {
     display: flex;
     align-items: center;
     padding: 3vh 11vw;
     height: 70px; }
-    .header header .nav_bar h5 {
+    header nav h5 {
       font-family: Mr Dafoe;
       font-weight: normal;
       font-size: 25px;
-      line-height: 84.5%;
       color: #c9ab81; }
-    .header header .nav_bar img {
+    header nav img {
       margin-left: auto; }
 
 .line {
+  display: block;
   width: 100%;
   height: 2px;
   background-color: #715b3e; }
