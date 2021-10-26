@@ -22,29 +22,29 @@ header {
   height: 2px;
   background-color: #715b3e; }
 
-.section_1 {
+.landing_page {
   min-height: 92vh;
   width: 100%;
   position: relative;
   overflow: hidden; }
-  .section_1 img {
+  .landing_page img {
     position: absolute;
     height: 100%;
     left: 0;
     top: 0;
     z-index: -2; }
-  .section_1 .image_cover {
+  .landing_page .image_cover {
     position: absolute;
     width: 100%;
     height: 100%;
     background: rgba(11, 19, 21, 0.6);
     z-index: -1; }
-  .section_1 .content_wrapper {
+  .landing_page .content_wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 22vh; }
-    .section_1 .content_wrapper h1 {
+    .landing_page .content_wrapper h1 {
       font-family: Mr Dafoe;
       font-weight: normal;
       font-size: 81.4026px;
@@ -53,7 +53,7 @@ header {
       width: min-content;
       color: #c9ab81;
       margin: 0 auto 40px; }
-    .section_1 .content_wrapper p {
+    .landing_page .content_wrapper p {
       font-family: Josefin Sans;
       font-weight: 300;
       font-size: 23px;
@@ -62,7 +62,7 @@ header {
       letter-spacing: -0.04em;
       color: #ffffff;
       margin: 0px 10.7vw 40px; }
-    .section_1 .content_wrapper .btn {
+    .landing_page .content_wrapper .btn {
       cursor: pointer;
       background-color: transparent;
       border: 0.804721px solid #c9ab81;
@@ -74,9 +74,9 @@ header {
       letter-spacing: 0.1em;
       color: #ffffff; }
 
-.section_2 {
+.about_us {
   background-color: #0b1315; }
-  .section_2 h5 {
+  .about_us h5 {
     padding-top: 16vh;
     margin: 0 auto 15px;
     display: flex;
@@ -87,12 +87,12 @@ header {
     font-size: 19px;
     line-height: 120%;
     color: #c9ab81; }
-  .section_2 .title_Wrapper {
+  .about_us .title_Wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 40px; }
-    .section_2 .title_Wrapper h3 {
+    .about_us .title_Wrapper h3 {
       font-family: Caviar Dreams;
       font-weight: 700;
       font-size: 31px;
@@ -101,10 +101,10 @@ header {
       letter-spacing: 0.25em;
       color: #c9ab81;
       width: min-content; }
-    .section_2 .title_Wrapper .left_svg,
-    .section_2 .title_Wrapper .right_svg {
+    .about_us .title_Wrapper .left_svg,
+    .about_us .title_Wrapper .right_svg {
       margin: 0 auto; }
-  .section_2 p {
+  .about_us p {
     font-family: Josefin Sans;
     font-weight: normal;
     font-size: 19px;
@@ -113,13 +113,13 @@ header {
     letter-spacing: -0.04em;
     color: #ffffff;
     margin: 0px 12.1vw 90px; }
-  .section_2 .top {
+  .about_us .top {
     position: relative;
     width: 100%;
     height: 41vh;
     display: block;
     margin-bottom: 60px; }
-    .section_2 .top .top_image {
+    .about_us .top .top_image {
       position: absolute;
       top: 0;
       left: 8.1vw;
@@ -127,27 +127,27 @@ header {
       height: 100%;
       object-fit: cover;
       object-position: 10% 80%; }
-    .section_2 .top .top_img_overlay {
+    .about_us .top .top_img_overlay {
       position: absolute;
       width: 84.1vw;
       height: 100%;
       top: 0;
       left: 8.1vw;
       background: radial-gradient(60.18% 58.9% at 50% 50%, rgba(11, 19, 21, 0) 40.54%, #0b1315 100%); }
-  .section_2 .pattern {
+  .about_us .pattern {
     display: flex;
     align-items: center;
     justify-content: center; }
-    .section_2 .pattern .pattern_1 {
+    .about_us .pattern .pattern_1 {
       transform: scale(0.95);
       margin: 0px auto; }
-  .section_2 .bottom {
+  .about_us .bottom {
     position: relative;
     width: 100%;
     height: 41vh;
     display: block;
     margin-top: 60px; }
-    .section_2 .bottom .bottom_image {
+    .about_us .bottom .bottom_image {
       position: absolute;
       top: 0;
       left: 8.1vw;
@@ -155,7 +155,7 @@ header {
       height: 100%;
       object-fit: cover;
       object-position: 10% 80%; }
-    .section_2 .bottom .bottom_img_overlay {
+    .about_us .bottom .bottom_img_overlay {
       position: absolute;
       width: 84.1vw;
       height: 100%;
@@ -163,12 +163,12 @@ header {
       left: 8.1vw;
       background: radial-gradient(60.18% 58.9% at 50% 50%, rgba(11, 19, 21, 0) 40.54%, #0b1315 100%); }
 
-.section_3 {
+.reviews {
   background-color: #0f1d22; }
-  .section_3 .content_wrapper img {
+  .reviews .content_wrapper img {
     margin: 0px auto 50px;
     padding-top: 70px; }
-  .section_3 .content_wrapper p {
+  .reviews .content_wrapper p {
     font-family: Miniver;
     font-weight: 300;
     font-size: 22px;
@@ -177,7 +177,7 @@ header {
     letter-spacing: -0.04em;
     color: #ffffff;
     margin: 0px 11vw 50px; }
-  .section_3 .content_wrapper h5 {
+  .reviews .content_wrapper h5 {
     font-family: Caviar Dreams;
     font-weight: 700;
     font-size: 16px;
@@ -187,7 +187,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center; }
-  .section_3 .content_wrapper h6 {
+  .reviews .content_wrapper h6 {
     font-family: Josefin Sans;
     font-weight: 400;
     font-size: 19px;
@@ -197,12 +197,12 @@ header {
     justify-content: center;
     color: #ffffff;
     margin-bottom: 50px; }
-  .section_3 .image_wrapper {
+  .reviews .image_wrapper {
     width: 100%;
     min-height: 57.2vh;
     position: relative;
     display: block; }
-    .section_3 .image_wrapper img {
+    .reviews .image_wrapper img {
       position: absolute;
       top: 0;
       left: 0;
@@ -210,22 +210,22 @@ header {
       height: 100%;
       object-fit: cover;
       object-position: 10% 80%; }
-    .section_3 .image_wrapper .img_overlay {
+    .reviews .image_wrapper .img_overlay {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
       background: rgba(11, 19, 21, 0.3); }
-  .section_3 .section_3a {
+  .reviews .section_3a {
     background-color: #0b1315;
     padding-top: 120px; }
-    .section_3 .section_3a .bottom_img_wrapper {
+    .reviews .section_3a .bottom_img_wrapper {
       position: relative;
       width: 100%;
       height: 26.9vh;
       display: block; }
-      .section_3 .section_3a .bottom_img_wrapper .bottom_img_ {
+      .reviews .section_3a .bottom_img_wrapper .bottom_img_ {
         position: absolute;
         top: 0;
         left: 12.8vw;
@@ -233,19 +233,19 @@ header {
         height: 100%;
         object-fit: cover;
         object-position: 5% 60%; }
-      .section_3 .section_3a .bottom_img_wrapper .bottom_img_overlay {
+      .reviews .section_3a .bottom_img_wrapper .bottom_img_overlay {
         position: absolute;
         top: 0;
         left: 12.8vw;
         width: 74.2vw;
         height: 100%;
         background: rgba(0, 0, 0, 0.2); }
-  .section_3 .cnt_wrapper {
+  .reviews .cnt_wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-    .section_3 .cnt_wrapper h5 {
+    .reviews .cnt_wrapper h5 {
       padding-top: 16vh;
       margin: 0 auto 15px;
       display: flex;
@@ -256,12 +256,12 @@ header {
       font-size: 19px;
       line-height: 120%;
       color: #c9ab81; }
-    .section_3 .cnt_wrapper .title_Wrapper {
+    .reviews .cnt_wrapper .title_Wrapper {
       display: flex;
       align-items: center;
       justify-content: center;
       margin-bottom: 40px; }
-      .section_3 .cnt_wrapper .title_Wrapper h3 {
+      .reviews .cnt_wrapper .title_Wrapper h3 {
         font-family: Caviar Dreams;
         font-weight: 700;
         font-size: 31px;
@@ -270,10 +270,10 @@ header {
         letter-spacing: 0.09em;
         color: #c9ab81;
         width: min-content; }
-      .section_3 .cnt_wrapper .title_Wrapper .left_svg,
-      .section_3 .cnt_wrapper .title_Wrapper .right_svg {
+      .reviews .cnt_wrapper .title_Wrapper .left_svg,
+      .reviews .cnt_wrapper .title_Wrapper .right_svg {
         margin: 0 auto; }
-    .section_3 .cnt_wrapper p {
+    .reviews .cnt_wrapper p {
       font-family: Josefin Sans;
       font-weight: normal;
       font-size: 19px;
@@ -282,7 +282,7 @@ header {
       letter-spacing: -0.04em;
       color: #ffffff;
       margin: 0px 12.1vw 50px; }
-    .section_3 .cnt_wrapper .btn {
+    .reviews .cnt_wrapper .btn {
       cursor: pointer;
       background-color: transparent;
       border: 0.804721px solid #c9ab81;
@@ -315,4 +315,5 @@ header {
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background: #0b1315; }

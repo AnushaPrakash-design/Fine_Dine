@@ -1,7 +1,8 @@
 @import "header.scss";
-@import "section_1.scss";
-@import "section_2.scss";
-@import "section_3.scss";
+@import "landing_page.scss";
+@import "about_us.scss";
+@import "reviews.scss";
+@import "from_our_menu.scss";
 // @import "section_4.scss";
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Miniver&family=Mr+Dafoe&display=swap");
 @font-face {
@@ -29,4 +30,7 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	background: #0b1315;
+}
+. {
 }
