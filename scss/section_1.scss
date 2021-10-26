@@ -7,9 +7,10 @@
 	img {
 		position: absolute;
 		height: 100%;
-		width: initial;
-		left: initial;
-		right: -59vh;
+		// width: initial;
+		left: 0;
+		top: 0;
+		// right: -59vh;
 		z-index: -2;
 	}
 	.image_cover {

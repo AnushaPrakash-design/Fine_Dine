@@ -30,9 +30,8 @@ header {
   .section_1 img {
     position: absolute;
     height: 100%;
-    width: initial;
-    left: initial;
-    right: -59vh;
+    left: 0;
+    top: 0;
     z-index: -2; }
   .section_1 .image_cover {
     position: absolute;
