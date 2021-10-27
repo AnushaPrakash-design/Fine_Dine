@@ -219,7 +219,7 @@ header {
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(11, 19, 21, 0.3); }
+      background: rgba(15, 29, 34, 0.5); }
   .reviews .section_3a {
     background-color: #0b1315;
     padding-top: 120px; }
@@ -273,9 +273,10 @@ header {
         letter-spacing: 0.09em;
         color: #c9ab81;
         width: min-content; }
-      .reviews .cnt_wrapper .title_Wrapper .left_svg,
+      .reviews .cnt_wrapper .title_Wrapper .left_svg {
+        margin: 0px auto; }
       .reviews .cnt_wrapper .title_Wrapper .right_svg {
-        margin: 0 auto; }
+        margin: 0px auto; }
     .reviews .cnt_wrapper p {
       font-family: Josefin Sans;
       font-weight: normal;
@@ -299,7 +300,8 @@ header {
       margin-bottom: 100px; }
 
 .from_our_menu {
-  background: #0f1d22; }
+  background: #0f1d22;
+  width: 100%; }
   .from_our_menu .title_wrapper h5 {
     padding-top: 16vh;
     margin: 0 auto 15px;
@@ -334,7 +336,7 @@ header {
     font-size: 14px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: #C9AB81;
+    color: #c9ab81;
     margin: 40px 0px 10px 14vw; }
   .from_our_menu .card h4 {
     font-family: Caviar Dreams;
@@ -342,7 +344,7 @@ header {
     font-size: 19px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #C9AB81;
+    color: #c9ab81;
     margin: 0px 0px 10px 14vw; }
   .from_our_menu .card p {
     font-family: Josefin Sans;
@@ -350,19 +352,90 @@ header {
     font-size: 19px;
     line-height: 29px;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: #ffffff;
     margin: 0px 14vw; }
-  .from_our_menu .btn {
-    cursor: pointer;
-    background-color: transparent;
-    border: 0.804721px solid #c9ab81;
-    padding: 16px 33px 12px;
+  .from_our_menu .butt {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .from_our_menu .butt .btn {
+      cursor: pointer;
+      background-color: transparent;
+      border: 0.804721px solid #c9ab81;
+      padding: 16px 33px 12px;
+      font-family: Josefin Sans;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 14px;
+      letter-spacing: 0.1em;
+      color: #ffffff;
+      margin: 65px 0px 150px; }
+
+.chefs {
+  background: #0b1315;
+  width: 100%; }
+  .chefs .image_wrapper .top_image {
+    width: 74.7vw;
+    height: 100%;
+    margin: 0 auto;
+    padding: 160px 0px 50px; }
+  .chefs .image_wrapper .bottom_image {
+    width: 74.7vw;
+    height: 100%;
+    margin: 0 auto; }
+  .chefs .content_wrapper h5 {
+    padding-top: 16vh;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Miniver;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 120%;
+    color: #c9ab81; }
+  .chefs .content_wrapper .title_Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px; }
+    .chefs .content_wrapper .title_Wrapper h3 {
+      font-family: Caviar Dreams;
+      font-weight: 700;
+      font-size: 31px;
+      line-height: 39px;
+      text-align: center;
+      letter-spacing: 0.25em;
+      color: #c9ab81;
+      width: min-content; }
+    .chefs .content_wrapper .title_Wrapper .left_svg,
+    .chefs .content_wrapper .title_Wrapper .right_svg {
+      margin: 0 auto; }
+  .chefs .content_wrapper p {
     font-family: Josefin Sans;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 14px;
-    letter-spacing: 0.1em;
-    color: #ffffff; }
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+    margin: 0px 12.1vw 90px; }
+  .chefs .butt {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .chefs .butt .btn {
+      cursor: pointer;
+      background-color: transparent;
+      border: 0.804721px solid #c9ab81;
+      padding: 16px 33px 12px;
+      font-family: Josefin Sans;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 14px;
+      letter-spacing: 0.1em;
+      color: #ffffff;
+      margin: 0px 0px 150px; }
 
 @font-face {
   font-family: Caviar Dreams;

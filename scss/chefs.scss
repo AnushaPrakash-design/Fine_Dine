@@ -1,7 +1,20 @@
-.from_our_menu {
-	background: #0f1d22;
+.chefs {
+	background: #0b1315;
 	width: 100%;
-	.title_wrapper {
+	.image_wrapper {
+		.top_image {
+			width: 74.7vw;
+			height: 100%;
+			margin: 0 auto;
+			padding: 160px 0px 50px;
+		}
+		.bottom_image {
+			width: 74.7vw;
+			height: 100%;
+			margin: 0 auto;
+		}
+	}
+	.content_wrapper {
 		h5 {
 			padding-top: 16vh;
 			margin: 0 auto 15px;
@@ -18,7 +31,7 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			margin-bottom: 70px;
+			margin-bottom: 40px;
 
 			h3 {
 				font-family: Caviar Dreams;
@@ -36,35 +49,15 @@
 				margin: 0 auto;
 			}
 		}
-	}
-
-	.card {
-		h5 {
-			font-family: Caviar Dreams;
-			font-weight: bold;
-			font-size: 14px;
-			letter-spacing: 0.2em;
-			text-transform: uppercase;
-			color: #c9ab81;
-			margin: 40px 0px 10px 14vw;
-		}
-		h4 {
-			font-family: Caviar Dreams;
-			font-weight: bold;
-			font-size: 19px;
-			letter-spacing: 0.04em;
-			text-transform: uppercase;
-			color: #c9ab81;
-			margin: 0px 0px 10px 14vw;
-		}
 		p {
 			font-family: Josefin Sans;
 			font-weight: normal;
 			font-size: 19px;
 			line-height: 29px;
-			letter-spacing: 0.04em;
+			text-align: center;
+			letter-spacing: -0.04em;
 			color: #ffffff;
-			margin: 0px 14vw;
+			margin: 0px 12.1vw 90px;
 		}
 	}
 	.butt {
@@ -82,7 +75,7 @@
 			line-height: 14px;
 			letter-spacing: 0.1em;
 			color: #ffffff;
-			margin: 65px 0px 150px;
+			margin: 0px 0px 150px;
 		}
 	}
 }
