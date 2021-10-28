@@ -6,12 +6,8 @@ footer {
 		font-family: Mr Dafoe;
 		font-weight: normal;
 		font-size: 47.5828px;
-		// line-height: 84.5%;
-		// display: flex;
-		// align-items: flex-end;
 		text-align: center;
 		color: #c9ab81;
-		// padding: 150px 0px 50px;
 		margin: 150px auto 50px;
 	}
 	p {
@@ -19,18 +15,24 @@ footer {
 		font-weight: normal;
 		font-size: 19px;
 		text-align: center;
-		text-transform: lowercase;
 		color: #ffffff;
-		margin: 0px 14vw 30px;
+		margin: 0px 14vw 60px;
 	}
-	h3 {
-		font-family: Josefin Sans;
-		font-weight: normal;
-		font-size: 19px;
-		text-align: center;
-		text-transform: lowercase;
-		color: #ffffff;
-		margin: 0px auto 50px;
-		// text-decoration: underline;
+
+	.links {
+		a {
+			display: block;
+			font-family: Josefin Sans;
+			font-weight: normal;
+			font-size: 19px;
+			text-align: center;
+			color: #ffffff;
+			margin: 0px auto 45px;
+			width: max-content;
+			text-decoration: solid underline #c9ab81;
+			text-decoration-thickness: 1px;
+			text-underline-offset: 8px;
+			border-bottom: 1px solid #c9ab81;
+		}
 	}
 }

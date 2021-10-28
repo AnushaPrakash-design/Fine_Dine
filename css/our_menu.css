@@ -1,6 +1,7 @@
 .our_menu {
   background: #0b1315;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 150px; }
   .our_menu .content_wrapper h5 {
     margin: 0 auto 15px;
     display: flex;
@@ -85,5 +86,4 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ffffff;
-    margin-bottom: 150px; }
+    color: #ffffff; }

@@ -439,7 +439,8 @@ header {
 
 .our_menu {
   background: #0b1315;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 150px; }
   .our_menu .content_wrapper h5 {
     margin: 0 auto 15px;
     display: flex;
@@ -524,8 +525,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ffffff;
-    margin-bottom: 150px; }
+    color: #ffffff; }
 
 .reservation {
   background: #0f1d22;
@@ -574,17 +574,21 @@ footer {
     font-weight: normal;
     font-size: 19px;
     text-align: center;
-    text-transform: lowercase;
     color: #ffffff;
-    margin: 0px 14vw 30px; }
-  footer h3 {
+    margin: 0px 14vw 60px; }
+  footer .links a {
+    display: block;
     font-family: Josefin Sans;
     font-weight: normal;
     font-size: 19px;
     text-align: center;
-    text-transform: lowercase;
     color: #ffffff;
-    margin: 0px auto 50px; }
+    margin: 0px auto 45px;
+    width: max-content;
+    text-decoration: solid underline #c9ab81;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 8px;
+    border-bottom: 1px solid #c9ab81; }
 
 @font-face {
   font-family: Caviar Dreams;

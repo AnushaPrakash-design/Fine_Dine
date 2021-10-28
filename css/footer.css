@@ -14,14 +14,18 @@ footer {
     font-weight: normal;
     font-size: 19px;
     text-align: center;
-    text-transform: lowercase;
     color: #ffffff;
-    margin: 0px 14vw 30px; }
-  footer h3 {
+    margin: 0px 14vw 60px; }
+  footer .links a {
+    display: block;
     font-family: Josefin Sans;
     font-weight: normal;
     font-size: 19px;
     text-align: center;
-    text-transform: lowercase;
     color: #ffffff;
-    margin: 0px auto 50px; }
+    margin: 0px auto 45px;
+    width: max-content;
+    text-decoration: solid underline #c9ab81;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 8px;
+    border-bottom: 1px solid #c9ab81; }
