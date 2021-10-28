@@ -89,12 +89,7 @@
 			}
 		}
 	}
-	.cnt_wrapper {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-
+	.inner_content {
 		h5 {
 			padding-top: 16vh;
 			margin: 0 auto 15px;
@@ -119,16 +114,14 @@
 				font-size: 31px;
 				line-height: 39px;
 				text-align: center;
-				letter-spacing: 0.09em;
+				letter-spacing: 0.05em;
 				color: #c9ab81;
 				width: min-content;
 			}
 
-			.left_svg {
-				margin: 0px auto;
-			}
+			.left_svg,
 			.right_svg {
-				margin: 0px auto;
+				margin: 0 auto;
 			}
 		}
 		p {
@@ -137,22 +130,27 @@
 			font-size: 19px;
 			line-height: 29px;
 			text-align: center;
-			letter-spacing: -0.04em;
+			letter-spacing: 0.08em;
 			color: #ffffff;
-			margin: 0px 12.1vw 50px;
+			margin: 0px 12.1vw 90px;
 		}
-		.btn {
-			cursor: pointer;
-			background-color: transparent;
-			border: 0.804721px solid #c9ab81;
-			padding: 16px 33px 12px;
-			font-family: Josefin Sans;
-			font-weight: 300;
-			font-size: 14px;
-			line-height: 14px;
-			letter-spacing: 0.1em;
-			color: #ffffff;
-			margin-bottom: 100px;
-		}
+	}
+	.butt {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.btn {
+		cursor: pointer;
+		background-color: transparent;
+		border: 0.804721px solid #c9ab81;
+		padding: 16px 33px 12px;
+		font-family: Josefin Sans;
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 14px;
+		letter-spacing: 0.1em;
+		color: #ffffff;
+		margin-bottom: 100px;
 	}
 }

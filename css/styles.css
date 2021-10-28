@@ -243,61 +243,59 @@ header {
         width: 74.2vw;
         height: 100%;
         background: rgba(0, 0, 0, 0.2); }
-  .reviews .cnt_wrapper {
+  .reviews .inner_content h5 {
+    padding-top: 16vh;
+    margin: 0 auto 15px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-items: center; }
-    .reviews .cnt_wrapper h5 {
-      padding-top: 16vh;
-      margin: 0 auto 15px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: Miniver;
-      font-weight: normal;
-      font-size: 19px;
-      line-height: 120%;
-      color: #c9ab81; }
-    .reviews .cnt_wrapper .title_Wrapper {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 40px; }
-      .reviews .cnt_wrapper .title_Wrapper h3 {
-        font-family: Caviar Dreams;
-        font-weight: 700;
-        font-size: 31px;
-        line-height: 39px;
-        text-align: center;
-        letter-spacing: 0.09em;
-        color: #c9ab81;
-        width: min-content; }
-      .reviews .cnt_wrapper .title_Wrapper .left_svg {
-        margin: 0px auto; }
-      .reviews .cnt_wrapper .title_Wrapper .right_svg {
-        margin: 0px auto; }
-    .reviews .cnt_wrapper p {
-      font-family: Josefin Sans;
-      font-weight: normal;
-      font-size: 19px;
-      line-height: 29px;
+    font-family: Miniver;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 120%;
+    color: #c9ab81; }
+  .reviews .inner_content .title_Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px; }
+    .reviews .inner_content .title_Wrapper h3 {
+      font-family: Caviar Dreams;
+      font-weight: 700;
+      font-size: 31px;
+      line-height: 39px;
       text-align: center;
-      letter-spacing: -0.04em;
-      color: #ffffff;
-      margin: 0px 12.1vw 50px; }
-    .reviews .cnt_wrapper .btn {
-      cursor: pointer;
-      background-color: transparent;
-      border: 0.804721px solid #c9ab81;
-      padding: 16px 33px 12px;
-      font-family: Josefin Sans;
-      font-weight: 300;
-      font-size: 14px;
-      line-height: 14px;
-      letter-spacing: 0.1em;
-      color: #ffffff;
-      margin-bottom: 100px; }
+      letter-spacing: 0.05em;
+      color: #c9ab81;
+      width: min-content; }
+    .reviews .inner_content .title_Wrapper .left_svg,
+    .reviews .inner_content .title_Wrapper .right_svg {
+      margin: 0 auto; }
+  .reviews .inner_content p {
+    font-family: Josefin Sans;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #ffffff;
+    margin: 0px 12.1vw 90px; }
+  .reviews .butt {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .reviews .btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.804721px solid #c9ab81;
+    padding: 16px 33px 12px;
+    font-family: Josefin Sans;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    margin-bottom: 100px; }
 
 .from_our_menu {
   background: #0f1d22;
@@ -559,16 +557,16 @@ header {
       margin: 0 auto; }
 
 footer {
-  background: #0b1315;
+  background: #0f1d22;
   width: 100%;
-  padding-bottom: 150px; }
+  padding: 150px 0px; }
   footer h4 {
     font-family: Mr Dafoe;
     font-weight: normal;
     font-size: 47.5828px;
     text-align: center;
     color: #c9ab81;
-    margin: 150px auto 50px; }
+    margin: 0px auto 50px; }
   footer p {
     font-family: Josefin Sans;
     font-weight: normal;
