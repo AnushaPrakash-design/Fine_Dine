@@ -1,0 +1,30 @@
+.reservation {
+  background: #0f1d22;
+  width: 100%; }
+  .reservation .content_wrapper h5 {
+    padding-top: 150px;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Miniver;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 120%;
+    color: #c9ab81; }
+  .reservation .content_wrapper .title_Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .reservation .content_wrapper .title_Wrapper h3 {
+      font-family: Caviar Dreams;
+      font-weight: 700;
+      font-size: 31px;
+      line-height: 39px;
+      text-align: center;
+      letter-spacing: 0.25em;
+      color: #c9ab81;
+      width: min-content; }
+    .reservation .content_wrapper .title_Wrapper .left_svg,
+    .reservation .content_wrapper .title_Wrapper .right_svg {
+      margin: 0 auto; }

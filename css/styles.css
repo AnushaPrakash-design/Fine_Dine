@@ -437,6 +437,155 @@ header {
       color: #ffffff;
       margin: 0px 0px 150px; }
 
+.our_menu {
+  background: #0b1315;
+  width: 100%; }
+  .our_menu .content_wrapper h5 {
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Miniver;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 120%;
+    color: #c9ab81; }
+  .our_menu .content_wrapper .title_Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px; }
+    .our_menu .content_wrapper .title_Wrapper h3 {
+      font-family: Caviar Dreams;
+      font-weight: 700;
+      font-size: 31px;
+      line-height: 39px;
+      text-align: center;
+      letter-spacing: 0.25em;
+      color: #c9ab81;
+      width: min-content; }
+    .our_menu .content_wrapper .title_Wrapper .left_svg,
+    .our_menu .content_wrapper .title_Wrapper .right_svg {
+      margin: 0 auto; }
+  .our_menu .top,
+  .our_menu .mid,
+  .our_menu .bot {
+    position: relative;
+    width: 74.7vw;
+    height: 380px;
+    display: block;
+    margin: 75px auto 35px; }
+    .our_menu .top .top_image,
+    .our_menu .top .mid_image,
+    .our_menu .top .bot_image,
+    .our_menu .mid .top_image,
+    .our_menu .mid .mid_image,
+    .our_menu .mid .bot_image,
+    .our_menu .bot .top_image,
+    .our_menu .bot .mid_image,
+    .our_menu .bot .bot_image {
+      position: absolute;
+      top: 0;
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 10% 60%; }
+  .our_menu .top_img_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.3); }
+  .our_menu .mid_img_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.5); }
+  .our_menu .title_wrapper h5 {
+    font-family: Caviar Dreams;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #c9ab81;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .our_menu .title_wrapper h6 {
+    font-family: Josefin Sans;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin-bottom: 150px; }
+
+.reservation {
+  background: #0f1d22;
+  width: 100%; }
+  .reservation .content_wrapper h5 {
+    padding-top: 150px;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Miniver;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 120%;
+    color: #c9ab81; }
+  .reservation .content_wrapper .title_Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .reservation .content_wrapper .title_Wrapper h3 {
+      font-family: Caviar Dreams;
+      font-weight: 700;
+      font-size: 31px;
+      line-height: 39px;
+      text-align: center;
+      letter-spacing: 0.25em;
+      color: #c9ab81;
+      width: min-content; }
+    .reservation .content_wrapper .title_Wrapper .left_svg,
+    .reservation .content_wrapper .title_Wrapper .right_svg {
+      margin: 0 auto; }
+
+footer {
+  background: #0b1315;
+  width: 100%;
+  padding-bottom: 150px; }
+  footer h4 {
+    font-family: Mr Dafoe;
+    font-weight: normal;
+    font-size: 47.5828px;
+    text-align: center;
+    color: #c9ab81;
+    margin: 150px auto 50px; }
+  footer p {
+    font-family: Josefin Sans;
+    font-weight: normal;
+    font-size: 19px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #ffffff;
+    margin: 0px 14vw 30px; }
+  footer h3 {
+    font-family: Josefin Sans;
+    font-weight: normal;
+    font-size: 19px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #ffffff;
+    margin: 0px auto 50px; }
+
 @font-face {
   font-family: Caviar Dreams;
   src: url("../fonts/CaviarDreams.ttf");
