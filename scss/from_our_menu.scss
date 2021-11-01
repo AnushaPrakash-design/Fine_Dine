@@ -14,28 +14,6 @@
 			line-height: 120%;
 			color: #c9ab81;
 		}
-		.title_Wrapper {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			margin-bottom: 70px;
-
-			h3 {
-				font-family: Caviar Dreams;
-				font-weight: 700;
-				font-size: 31px;
-				line-height: 39px;
-				text-align: center;
-				letter-spacing: 0.25em;
-				color: #c9ab81;
-				width: min-content;
-			}
-
-			.left_svg,
-			.right_svg {
-				margin: 0 auto;
-			}
-		}
 	}
 
 	.card {
@@ -68,21 +46,7 @@
 		}
 	}
 	.butt {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		.btn {
-			cursor: pointer;
-			background-color: transparent;
-			border: 0.804721px solid #c9ab81;
-			padding: 16px 33px 12px;
-			font-family: Josefin Sans;
-			font-weight: 300;
-			font-size: 14px;
-			line-height: 14px;
-			letter-spacing: 0.1em;
-			color: #ffffff;
-			margin: 65px 0px 150px;
-		}
+		margin-top: 65px;
+		padding-bottom: 150px;
 	}
 }

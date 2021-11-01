@@ -12,30 +12,30 @@
 			line-height: 39px;
 			text-align: center;
 			letter-spacing: -0.04em;
-			color: #ffffff;
 			margin: 0px 11vw 50px;
 		}
 		h5 {
 			font-family: Caviar Dreams;
 			font-weight: 700;
 			font-size: 16px;
-			line-height: 39px;
+			// line-height: 39px;
 			letter-spacing: 0.1em;
 			color: #c9ab81;
 			display: flex;
 			align-items: center;
 			justify-content: center;
+			padding-top: 0;
+			// margin-bottom: 0;
 		}
 		h6 {
 			font-family: Josefin Sans;
 			font-weight: 400;
 			font-size: 19px;
-			line-height: 39px;
+			// line-height: 39px;
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			color: #ffffff;
-			margin-bottom: 50px;
+			margin-bottom: 60px;
 		}
 	}
 	.image_wrapper {
@@ -60,97 +60,5 @@
 			height: 100%;
 			background: rgba(15, 29, 34, 0.5);
 		}
-	}
-	.section_3a {
-		background-color: #0b1315;
-		padding-top: 120px;
-		.bottom_img_wrapper {
-			position: relative;
-			width: 100%;
-			height: 26.9vh;
-			display: block;
-
-			.bottom_img_ {
-				position: absolute;
-				top: 0;
-				left: 12.8vw;
-				width: 74.2vw;
-				height: 100%;
-				object-fit: cover;
-				object-position: 5% 60%;
-			}
-			.bottom_img_overlay {
-				position: absolute;
-				top: 0;
-				left: 12.8vw;
-				width: 74.2vw;
-				height: 100%;
-				background: rgba(0, 0, 0, 0.2);
-			}
-		}
-	}
-	.inner_content {
-		h5 {
-			padding-top: 16vh;
-			margin: 0 auto 15px;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			font-family: Miniver;
-			font-weight: normal;
-			font-size: 19px;
-			line-height: 120%;
-			color: #c9ab81;
-		}
-		.title_Wrapper {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			margin-bottom: 40px;
-
-			h3 {
-				font-family: Caviar Dreams;
-				font-weight: 700;
-				font-size: 31px;
-				line-height: 39px;
-				text-align: center;
-				letter-spacing: 0.05em;
-				color: #c9ab81;
-				width: min-content;
-			}
-
-			.left_svg,
-			.right_svg {
-				margin: 0 auto;
-			}
-		}
-		p {
-			font-family: Josefin Sans;
-			font-weight: normal;
-			font-size: 19px;
-			line-height: 29px;
-			text-align: center;
-			letter-spacing: 0.08em;
-			color: #ffffff;
-			margin: 0px 12.1vw 90px;
-		}
-	}
-	.butt {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-	.btn {
-		cursor: pointer;
-		background-color: transparent;
-		border: 0.804721px solid #c9ab81;
-		padding: 16px 33px 12px;
-		font-family: Josefin Sans;
-		font-weight: 300;
-		font-size: 14px;
-		line-height: 14px;
-		letter-spacing: 0.1em;
-		color: #ffffff;
-		margin-bottom: 100px;
 	}
 }

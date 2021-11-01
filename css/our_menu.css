@@ -1,34 +1,6 @@
 .our_menu {
-  background: #0b1315;
   width: 100%;
   margin-bottom: 150px; }
-  .our_menu .content_wrapper h5 {
-    margin: 0 auto 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Miniver;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 120%;
-    color: #c9ab81; }
-  .our_menu .content_wrapper .title_Wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 60px; }
-    .our_menu .content_wrapper .title_Wrapper h3 {
-      font-family: Caviar Dreams;
-      font-weight: 700;
-      font-size: 31px;
-      line-height: 39px;
-      text-align: center;
-      letter-spacing: 0.25em;
-      color: #c9ab81;
-      width: min-content; }
-    .our_menu .content_wrapper .title_Wrapper .left_svg,
-    .our_menu .content_wrapper .title_Wrapper .right_svg {
-      margin: 0 auto; }
   .our_menu .top,
   .our_menu .mid,
   .our_menu .bot {
@@ -66,7 +38,7 @@
     height: 100%;
     top: 0;
     margin: 0 auto;
-    background: rgba(0, 0, 0, 0.5); }
+    background: rgba(0, 0, 0, 0.25); }
   .our_menu .title_wrapper h5 {
     font-family: Caviar Dreams;
     font-style: normal;
@@ -85,5 +57,4 @@
     line-height: 39px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    color: #ffffff; }
+    justify-content: center; }

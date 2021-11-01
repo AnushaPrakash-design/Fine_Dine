@@ -2,7 +2,7 @@
 header {
   min-height: 70px;
   width: 100%;
-  background-color: #0b1315; }
+  border-bottom: 2px solid #715b3e; }
   header nav {
     display: flex;
     align-items: center;
@@ -15,12 +15,6 @@ header {
       color: #c9ab81; }
     header nav img {
       margin-left: auto; }
-
-.line {
-  display: block;
-  width: 100%;
-  height: 2px;
-  background-color: #715b3e; }
 
 .landing_page {
   min-height: 92vh;
@@ -63,108 +57,60 @@ header {
       letter-spacing: -0.04em;
       color: #ffffff;
       margin: 0px 10.7vw 40px; }
-    .landing_page .content_wrapper .btn {
-      cursor: pointer;
-      background-color: transparent;
-      border: 0.804721px solid #c9ab81;
-      padding: 16px 33px 12px;
-      font-family: Josefin Sans;
-      font-weight: 300;
-      font-size: 14px;
-      line-height: 14px;
-      letter-spacing: 0.1em;
-      color: #ffffff; }
 
-.about_us {
-  background-color: #0b1315; }
-  .about_us .inner_content h5 {
-    padding-top: 16vh;
-    margin: 0 auto 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Miniver;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 120%;
-    color: #c9ab81; }
-  .about_us .inner_content .title_Wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 40px; }
-    .about_us .inner_content .title_Wrapper h3 {
-      font-family: Caviar Dreams;
-      font-weight: 700;
-      font-size: 31px;
-      line-height: 39px;
-      text-align: center;
-      letter-spacing: 0.25em;
-      color: #c9ab81;
-      width: min-content; }
-    .about_us .inner_content .title_Wrapper .left_svg,
-    .about_us .inner_content .title_Wrapper .right_svg {
-      margin: 0 auto; }
-  .about_us .inner_content p {
-    font-family: Josefin Sans;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 29px;
-    text-align: center;
-    letter-spacing: -0.04em;
-    color: #ffffff;
-    margin: 0px 12.1vw 90px; }
-  .about_us .top {
-    position: relative;
-    width: 84.1vw;
-    height: 380px;
-    display: block;
+.about_us .top {
+  position: relative;
+  width: 84.1vw;
+  height: 380px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 60px; }
+  .about_us .top .top_image {
+    position: absolute;
+    top: 0;
     margin: 0 auto;
-    margin-bottom: 60px; }
-    .about_us .top .top_image {
-      position: absolute;
-      top: 0;
-      margin: 0 auto;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: 10% 80%; }
-    .about_us .top .top_img_overlay {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      margin: 0 auto;
-      background: radial-gradient(60.18% 58.9% at 50% 50%, rgba(11, 19, 21, 0) 40.54%, #0b1315 100%); }
-  .about_us .pattern {
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-    .about_us .pattern .pattern_1 {
-      transform: scale(0.95);
-      margin: 0px auto; }
-  .about_us .bottom {
-    position: relative;
-    width: 84.1vw;
-    height: 380px;
-    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 10% 80%; }
+  .about_us .top .top_img_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
     margin: 0 auto;
-    margin-top: 60px; }
-    .about_us .bottom .bottom_image {
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      margin: 0 auto;
-      object-fit: cover;
-      object-position: 10% 80%; }
-    .about_us .bottom .bottom_img_overlay {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      margin: 0 auto;
-      background: radial-gradient(60.18% 58.9% at 50% 50%, rgba(11, 19, 21, 0) 40.54%, #0b1315 100%); }
+    background: radial-gradient(60.18% 58.9% at 50% 50%, rgba(11, 19, 21, 0) 40.54%, #0b1315 100%); }
+
+.about_us .pattern {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .about_us .pattern .pattern_1 {
+    width: 80vw;
+    margin: 0px auto; }
+
+.about_us .bottom {
+  position: relative;
+  width: 84.1vw;
+  height: 380px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px; }
+  .about_us .bottom .bottom_image {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: 10% 80%; }
+  .about_us .bottom .bottom_img_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: 0 auto;
+    background: radial-gradient(60.18% 58.9% at 50% 50%, rgba(11, 19, 21, 0) 40.54%, #0b1315 100%); }
 
 .reviews {
   background-color: #0f1d22; }
@@ -178,28 +124,25 @@ header {
     line-height: 39px;
     text-align: center;
     letter-spacing: -0.04em;
-    color: #ffffff;
     margin: 0px 11vw 50px; }
   .reviews .content_wrapper h5 {
     font-family: Caviar Dreams;
     font-weight: 700;
     font-size: 16px;
-    line-height: 39px;
     letter-spacing: 0.1em;
     color: #c9ab81;
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    padding-top: 0; }
   .reviews .content_wrapper h6 {
     font-family: Josefin Sans;
     font-weight: 400;
     font-size: 19px;
-    line-height: 39px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ffffff;
-    margin-bottom: 50px; }
+    margin-bottom: 60px; }
   .reviews .image_wrapper {
     width: 100%;
     min-height: 57.2vh;
@@ -220,81 +163,32 @@ header {
       width: 100%;
       height: 100%;
       background: rgba(15, 29, 34, 0.5); }
-  .reviews .section_3a {
-    background-color: #0b1315;
-    padding-top: 120px; }
-    .reviews .section_3a .bottom_img_wrapper {
-      position: relative;
-      width: 100%;
-      height: 26.9vh;
-      display: block; }
-      .reviews .section_3a .bottom_img_wrapper .bottom_img_ {
-        position: absolute;
-        top: 0;
-        left: 12.8vw;
-        width: 74.2vw;
-        height: 100%;
-        object-fit: cover;
-        object-position: 5% 60%; }
-      .reviews .section_3a .bottom_img_wrapper .bottom_img_overlay {
-        position: absolute;
-        top: 0;
-        left: 12.8vw;
-        width: 74.2vw;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.2); }
-  .reviews .inner_content h5 {
-    padding-top: 16vh;
-    margin: 0 auto 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Miniver;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 120%;
-    color: #c9ab81; }
-  .reviews .inner_content .title_Wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 40px; }
-    .reviews .inner_content .title_Wrapper h3 {
-      font-family: Caviar Dreams;
-      font-weight: 700;
-      font-size: 31px;
-      line-height: 39px;
-      text-align: center;
-      letter-spacing: 0.05em;
-      color: #c9ab81;
-      width: min-content; }
-    .reviews .inner_content .title_Wrapper .left_svg,
-    .reviews .inner_content .title_Wrapper .right_svg {
-      margin: 0 auto; }
-  .reviews .inner_content p {
-    font-family: Josefin Sans;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 29px;
-    text-align: center;
-    letter-spacing: 0.08em;
-    color: #ffffff;
-    margin: 0px 12.1vw 90px; }
-  .reviews .butt {
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-  .reviews .btn {
-    cursor: pointer;
-    background-color: transparent;
-    border: 0.804721px solid #c9ab81;
-    padding: 16px 33px 12px;
-    font-family: Josefin Sans;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 14px;
-    letter-spacing: 0.1em;
-    color: #ffffff;
+
+.recommendation {
+  padding-top: 120px; }
+  .recommendation .bottom_img_wrapper {
+    position: relative;
+    width: 100%;
+    height: 26.9vh;
+    display: block; }
+    .recommendation .bottom_img_wrapper .bottom_img_ {
+      position: absolute;
+      top: 0;
+      left: 12.8vw;
+      width: 74.2vw;
+      height: 100%;
+      object-fit: cover;
+      object-position: 5% 60%; }
+    .recommendation .bottom_img_wrapper .bottom_img_overlay {
+      position: absolute;
+      top: 0;
+      left: 12.8vw;
+      width: 74.2vw;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.2); }
+  .recommendation .content_wrapper .title_Wrapper h3 {
+    letter-spacing: 0.05em; }
+  .recommendation .btn {
     margin-bottom: 100px; }
 
 .from_our_menu {
@@ -311,23 +205,6 @@ header {
     font-size: 19px;
     line-height: 120%;
     color: #c9ab81; }
-  .from_our_menu .title_wrapper .title_Wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 70px; }
-    .from_our_menu .title_wrapper .title_Wrapper h3 {
-      font-family: Caviar Dreams;
-      font-weight: 700;
-      font-size: 31px;
-      line-height: 39px;
-      text-align: center;
-      letter-spacing: 0.25em;
-      color: #c9ab81;
-      width: min-content; }
-    .from_our_menu .title_wrapper .title_Wrapper .left_svg,
-    .from_our_menu .title_wrapper .title_Wrapper .right_svg {
-      margin: 0 auto; }
   .from_our_menu .card h5 {
     font-family: Caviar Dreams;
     font-weight: bold;
@@ -353,24 +230,10 @@ header {
     color: #ffffff;
     margin: 0px 14vw; }
   .from_our_menu .butt {
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-    .from_our_menu .butt .btn {
-      cursor: pointer;
-      background-color: transparent;
-      border: 0.804721px solid #c9ab81;
-      padding: 16px 33px 12px;
-      font-family: Josefin Sans;
-      font-weight: 300;
-      font-size: 14px;
-      line-height: 14px;
-      letter-spacing: 0.1em;
-      color: #ffffff;
-      margin: 65px 0px 150px; }
+    margin-top: 65px;
+    padding-bottom: 150px; }
 
 .chefs {
-  background: #0b1315;
   width: 100%; }
   .chefs .image_wrapper .top_image {
     width: 74.7vw;
@@ -381,91 +244,10 @@ header {
     width: 74.7vw;
     height: 100%;
     margin: 0 auto; }
-  .chefs .content_wrapper h5 {
-    padding-top: 16vh;
-    margin: 0 auto 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Miniver;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 120%;
-    color: #c9ab81; }
-  .chefs .content_wrapper .title_Wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 40px; }
-    .chefs .content_wrapper .title_Wrapper h3 {
-      font-family: Caviar Dreams;
-      font-weight: 700;
-      font-size: 31px;
-      line-height: 39px;
-      text-align: center;
-      letter-spacing: 0.25em;
-      color: #c9ab81;
-      width: min-content; }
-    .chefs .content_wrapper .title_Wrapper .left_svg,
-    .chefs .content_wrapper .title_Wrapper .right_svg {
-      margin: 0 auto; }
-  .chefs .content_wrapper p {
-    font-family: Josefin Sans;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 29px;
-    text-align: center;
-    letter-spacing: -0.04em;
-    color: #ffffff;
-    margin: 0px 12.1vw 90px; }
-  .chefs .butt {
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-    .chefs .butt .btn {
-      cursor: pointer;
-      background-color: transparent;
-      border: 0.804721px solid #c9ab81;
-      padding: 16px 33px 12px;
-      font-family: Josefin Sans;
-      font-weight: 300;
-      font-size: 14px;
-      line-height: 14px;
-      letter-spacing: 0.1em;
-      color: #ffffff;
-      margin: 0px 0px 150px; }
 
 .our_menu {
-  background: #0b1315;
   width: 100%;
   margin-bottom: 150px; }
-  .our_menu .content_wrapper h5 {
-    margin: 0 auto 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Miniver;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 120%;
-    color: #c9ab81; }
-  .our_menu .content_wrapper .title_Wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 60px; }
-    .our_menu .content_wrapper .title_Wrapper h3 {
-      font-family: Caviar Dreams;
-      font-weight: 700;
-      font-size: 31px;
-      line-height: 39px;
-      text-align: center;
-      letter-spacing: 0.25em;
-      color: #c9ab81;
-      width: min-content; }
-    .our_menu .content_wrapper .title_Wrapper .left_svg,
-    .our_menu .content_wrapper .title_Wrapper .right_svg {
-      margin: 0 auto; }
   .our_menu .top,
   .our_menu .mid,
   .our_menu .bot {
@@ -503,7 +285,7 @@ header {
     height: 100%;
     top: 0;
     margin: 0 auto;
-    background: rgba(0, 0, 0, 0.5); }
+    background: rgba(0, 0, 0, 0.25); }
   .our_menu .title_wrapper h5 {
     font-family: Caviar Dreams;
     font-style: normal;
@@ -522,43 +304,12 @@ header {
     line-height: 39px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    color: #ffffff; }
-
-.reservation {
-  background: #0f1d22;
-  width: 100%; }
-  .reservation .content_wrapper h5 {
-    padding-top: 150px;
-    margin: 0 auto 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Miniver;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 120%;
-    color: #c9ab81; }
-  .reservation .content_wrapper .title_Wrapper {
-    display: flex;
-    align-items: center;
     justify-content: center; }
-    .reservation .content_wrapper .title_Wrapper h3 {
-      font-family: Caviar Dreams;
-      font-weight: 700;
-      font-size: 31px;
-      line-height: 39px;
-      text-align: center;
-      letter-spacing: 0.25em;
-      color: #c9ab81;
-      width: min-content; }
-    .reservation .content_wrapper .title_Wrapper .left_svg,
-    .reservation .content_wrapper .title_Wrapper .right_svg {
-      margin: 0 auto; }
 
 footer {
   background: #0f1d22;
   width: 100%;
+  max-height: 100vh;
   padding: 150px 0px; }
   footer h4 {
     font-family: Mr Dafoe;
@@ -572,7 +323,6 @@ footer {
     font-weight: normal;
     font-size: 19px;
     text-align: center;
-    color: #ffffff;
     margin: 0px 14vw 60px; }
   footer .links a {
     display: block;
@@ -580,23 +330,88 @@ footer {
     font-weight: normal;
     font-size: 19px;
     text-align: center;
-    color: #ffffff;
-    margin: 0px auto 45px;
+    margin: 0px auto 40px;
     width: max-content;
     text-decoration: solid underline #c9ab81;
     text-decoration-thickness: 1px;
-    text-underline-offset: 8px;
-    border-bottom: 1px solid #c9ab81; }
+    text-underline-offset: 5px; }
 
-@font-face {
-  font-family: Caviar Dreams;
-  src: url("../fonts/CaviarDreams.ttf");
-  font-weight: normal; }
+.butt {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .butt .btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.804721px solid #c9ab81;
+    padding: 16px 33px 12px;
+    font-family: Josefin Sans;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out; }
+    .butt .btn:hover {
+      background-color: #c9ab81; }
 
-@font-face {
-  font-family: Caviar Dreams;
-  src: url("../fonts/Caviar_Dreams_Bold.ttf");
-  font-weight: bold; }
+.content_wrapper h5 {
+  padding-top: 16vh;
+  margin: 0 auto 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Miniver;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 120%;
+  color: #c9ab81; }
+
+.content_wrapper .title_Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px; }
+  .content_wrapper .title_Wrapper h3 {
+    font-family: Caviar Dreams;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.25em;
+    color: #c9ab81;
+    width: min-content; }
+  .content_wrapper .title_Wrapper .left_svg,
+  .content_wrapper .title_Wrapper .right_svg {
+    margin: 0 auto; }
+
+.content_wrapper p {
+  font-family: Josefin Sans;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  margin: 0px 12.1vw 90px; }
+
+.title_Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px; }
+  .title_Wrapper h3 {
+    font-family: Caviar Dreams;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.25em;
+    color: #c9ab81;
+    width: min-content; }
+  .title_Wrapper .left_svg,
+  .title_Wrapper .right_svg {
+    margin: 0 auto; }
 
 * {
   margin: 0;
@@ -610,3 +425,20 @@ body {
   padding: 0;
   box-sizing: border-box;
   background: #0b1315; }
+  body p,
+  body h1,
+  body h3,
+  body h5,
+  body h6,
+  body a {
+    color: #ffffff; }
+
+@font-face {
+  font-family: Caviar Dreams;
+  src: url("../fonts/CaviarDreams.ttf");
+  font-weight: normal; }
+
+@font-face {
+  font-family: Caviar Dreams;
+  src: url("../fonts/Caviar_Dreams_Bold.ttf");
+  font-weight: bold; }

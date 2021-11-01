@@ -1,0 +1,39 @@
+.recommendation {
+	padding-top: 120px;
+	.bottom_img_wrapper {
+		position: relative;
+		width: 100%;
+		height: 26.9vh;
+		display: block;
+
+		.bottom_img_ {
+			position: absolute;
+			top: 0;
+			left: 12.8vw;
+			width: 74.2vw;
+			height: 100%;
+			object-fit: cover;
+			object-position: 5% 60%;
+		}
+		.bottom_img_overlay {
+			position: absolute;
+			top: 0;
+			left: 12.8vw;
+			width: 74.2vw;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.2);
+		}
+	}
+
+	.content_wrapper {
+		.title_Wrapper {
+			h3 {
+				letter-spacing: 0.05em;
+			}
+		}
+	}
+
+	.btn {
+		margin-bottom: 100px;
+	}
+}

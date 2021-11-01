@@ -2,13 +2,17 @@
 @import "landing_page.scss";
 @import "about_us.scss";
 @import "reviews.scss";
+@import "recommendation.scss";
 @import "from_our_menu.scss";
 @import "chefs.scss";
 @import "our_menu.scss";
-@import "reservation.scss";
 @import "footer.scss";
-// @import "section_4.scss";
+@import "common_code.scss";
+
+// imported fonts from google fonts
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Miniver&family=Mr+Dafoe&display=swap");
+
+//  imported font from local storage
 @font-face {
 	font-family: Caviar Dreams;
 	src: url("../fonts/CaviarDreams.ttf");
@@ -18,21 +22,4 @@
 	font-family: Caviar Dreams;
 	src: url("../fonts/Caviar_Dreams_Bold.ttf");
 	font-weight: bold;
-}
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-
-	img {
-		display: block;
-	}
-}
-
-body {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	background: #0b1315;
 }
