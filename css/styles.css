@@ -21,13 +21,17 @@ header {
   width: 100%;
   position: relative;
   overflow: hidden; }
-  .landing_page img {
-    position: absolute;
+  .landing_page .background_image {
     height: 100%;
     width: 100%;
-    left: 0;
-    top: 0;
-    z-index: -2; }
+    position: absolute; }
+    .landing_page .background_image img {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      z-index: -2; }
   .landing_page .image_cover {
     position: absolute;
     width: 100%;
@@ -57,15 +61,40 @@ header {
       letter-spacing: -0.04em;
       color: #ffffff;
       margin: 0px 10.7vw 40px; }
+  @media only screen and (min-width: 768px) {
+    .landing_page .background_image {
+      background-position: 5% center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("/images/landing/landing_img.jpg");
+      height: 100%;
+      width: 100%; }
+      .landing_page .background_image img {
+        display: none; }
+    .landing_page .image_cover {
+      z-index: 1; }
+    .landing_page .content_wrapper {
+      margin-top: 30vh;
+      position: absolute;
+      z-index: 3;
+      max-width: 50vw;
+      margin: 0 auto; }
+      .landing_page .content_wrapper h1 {
+        margin-bottom: 70px;
+        width: max-content;
+        word-spacing: 20px; }
+      .landing_page .content_wrapper p {
+        font-weight: 600;
+        margin-bottom: 70px; } }
 
-.about_us .top {
+.about_us .image_wrapper .top {
   position: relative;
   width: 84.1vw;
   height: 380px;
   display: block;
   margin: 0 auto;
   margin-bottom: 60px; }
-  .about_us .top .top_image {
+  .about_us .image_wrapper .top .top_image {
     position: absolute;
     top: 0;
     margin: 0 auto;
@@ -73,7 +102,7 @@ header {
     height: 100%;
     object-fit: cover;
     object-position: 10% 80%; }
-  .about_us .top .top_img_overlay {
+  .about_us .image_wrapper .top .top_img_overlay {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -81,22 +110,22 @@ header {
     margin: 0 auto;
     background: radial-gradient(60.18% 58.9% at 50% 50%, rgba(11, 19, 21, 0) 40.54%, #0b1315 100%); }
 
-.about_us .pattern {
+.about_us .image_wrapper .pattern {
   display: flex;
   align-items: center;
   justify-content: center; }
-  .about_us .pattern .pattern_1 {
+  .about_us .image_wrapper .pattern .pattern_1 {
     width: 80vw;
     margin: 0px auto; }
 
-.about_us .bottom {
+.about_us .image_wrapper .bottom {
   position: relative;
   width: 84.1vw;
   height: 380px;
   display: block;
   margin: 0 auto;
   margin-top: 60px; }
-  .about_us .bottom .bottom_image {
+  .about_us .image_wrapper .bottom .bottom_image {
     position: absolute;
     top: 0;
     width: 100%;
@@ -104,13 +133,17 @@ header {
     margin: 0 auto;
     object-fit: cover;
     object-position: 10% 80%; }
-  .about_us .bottom .bottom_img_overlay {
+  .about_us .image_wrapper .bottom .bottom_img_overlay {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     margin: 0 auto;
     background: radial-gradient(60.18% 58.9% at 50% 50%, rgba(11, 19, 21, 0) 40.54%, #0b1315 100%); }
+
+@media only screen and (min-width: 768px) {
+  .about_us .image_wrapper {
+    display: flex; } }
 
 .reviews {
   background-color: #0f1d22; }
@@ -205,21 +238,19 @@ header {
     font-size: 19px;
     line-height: 120%;
     color: #c9ab81; }
-  .from_our_menu .card h5 {
-    font-family: Caviar Dreams;
-    font-weight: bold;
-    font-size: 14px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: #c9ab81;
-    margin: 40px 0px 10px 14vw; }
+  .from_our_menu .card h5,
   .from_our_menu .card h4 {
     font-family: Caviar Dreams;
     font-weight: bold;
+    text-transform: uppercase;
+    color: #c9ab81; }
+  .from_our_menu .card h5 {
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    margin: 40px 0px 10px 14vw; }
+  .from_our_menu .card h4 {
     font-size: 19px;
     letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #c9ab81;
     margin: 0px 0px 10px 14vw; }
   .from_our_menu .card p {
     font-family: Josefin Sans;
@@ -227,7 +258,6 @@ header {
     font-size: 19px;
     line-height: 29px;
     letter-spacing: 0.04em;
-    color: #ffffff;
     margin: 0px 14vw; }
   .from_our_menu .butt {
     margin-top: 65px;
@@ -309,8 +339,7 @@ header {
 footer {
   background: #0f1d22;
   width: 100%;
-  max-height: 100vh;
-  padding: 150px 0px; }
+  padding: 150px 0px 60px; }
   footer h4 {
     font-family: Mr Dafoe;
     font-weight: normal;
@@ -395,6 +424,12 @@ footer {
   color: #ffffff;
   margin: 0px 12.1vw 90px; }
 
+@media only screen and (min-width: 768px) {
+  .content_wrapper {
+    margin: 0px auto; }
+    .content_wrapper p {
+      margin: 0 auto; } }
+
 .title_Wrapper {
   display: flex;
   align-items: center;
@@ -412,6 +447,14 @@ footer {
   .title_Wrapper .left_svg,
   .title_Wrapper .right_svg {
     margin: 0 auto; }
+  @media only screen and (min-width: 768px) {
+    .title_Wrapper h3 {
+      width: max-content;
+      margin: 0px 70px;
+      font-size: 36px; }
+    .title_Wrapper .left_svg,
+    .title_Wrapper .right_svg {
+      margin: initial; } }
 
 * {
   margin: 0;

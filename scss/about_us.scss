@@ -1,77 +1,86 @@
 .about_us {
-	.top {
-		position: relative;
-		// width: 100%;
-		width: 84.1vw;
-		height: 380px;
-		display: block;
-		margin: 0 auto;
-		margin-bottom: 60px;
-		.top_image {
-			position: absolute;
-			top: 0;
+	.image_wrapper {
+		.top {
+			position: relative;
+			// width: 100%;
+			width: 84.1vw;
+			height: 380px;
+			display: block;
 			margin: 0 auto;
-			// left: 8.1vw;
-			// width: 84.1vw;
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-			object-position: 10% 80%;
+			margin-bottom: 60px;
+			.top_image {
+				position: absolute;
+				top: 0;
+				margin: 0 auto;
+				// left: 8.1vw;
+				// width: 84.1vw;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				object-position: 10% 80%;
+			}
+			.top_img_overlay {
+				position: absolute;
+				// width: 84.1vw;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				// left: 8.1vw;
+				margin: 0 auto;
+				background: radial-gradient(
+					60.18% 58.9% at 50% 50%,
+					rgba(11, 19, 21, 0) 40.54%,
+					#0b1315 100%
+				);
+			}
 		}
-		.top_img_overlay {
-			position: absolute;
-			// width: 84.1vw;
-			width: 100%;
-			height: 100%;
-			top: 0;
-			// left: 8.1vw;
+		.pattern {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			.pattern_1 {
+				// transform: scale(0.95);
+				width: 80vw;
+				margin: 0px auto;
+			}
+		}
+		.bottom {
+			position: relative;
+			width: 84.1vw;
+			height: 380px;
+			display: block;
 			margin: 0 auto;
-			background: radial-gradient(
-				60.18% 58.9% at 50% 50%,
-				rgba(11, 19, 21, 0) 40.54%,
-				#0b1315 100%
-			);
+			margin-top: 60px;
+			.bottom_image {
+				position: absolute;
+				top: 0;
+				// left: 8.1vw;
+				width: 100%;
+				height: 100%;
+				margin: 0 auto;
+				object-fit: cover;
+				object-position: 10% 80%;
+			}
+			.bottom_img_overlay {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				// left: 8.1vw;
+				margin: 0 auto;
+				background: radial-gradient(
+					60.18% 58.9% at 50% 50%,
+					rgba(11, 19, 21, 0) 40.54%,
+					#0b1315 100%
+				);
+			}
 		}
 	}
-	.pattern {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		.pattern_1 {
-			// transform: scale(0.95);
-			width: 80vw;
-			margin: 0px auto;
+	@media only screen and (min-width: 768px) {
+		.image_wrapper {
+			display: flex;
 		}
 	}
-	.bottom {
-		position: relative;
-		width: 84.1vw;
-		height: 380px;
-		display: block;
-		margin: 0 auto;
-		margin-top: 60px;
-		.bottom_image {
-			position: absolute;
-			top: 0;
-			// left: 8.1vw;
-			width: 100%;
-			height: 100%;
-			margin: 0 auto;
-			object-fit: cover;
-			object-position: 10% 80%;
-		}
-		.bottom_img_overlay {
-			position: absolute;
-			width: 100%;
-			height: 100%;
-			top: 0;
-			// left: 8.1vw;
-			margin: 0 auto;
-			background: radial-gradient(
-				60.18% 58.9% at 50% 50%,
-				rgba(11, 19, 21, 0) 40.54%,
-				#0b1315 100%
-			);
-		}
+	@media only screen and (min-width: 1440px) and (orientation: landscape) {
 	}
 }

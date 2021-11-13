@@ -1,0 +1,110 @@
+.butt {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .butt .btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: 0.804721px solid #c9ab81;
+    padding: 16px 33px 12px;
+    font-family: Josefin Sans;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out; }
+    .butt .btn:hover {
+      background-color: #c9ab81; }
+
+.content_wrapper h5 {
+  padding-top: 16vh;
+  margin: 0 auto 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Miniver;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 120%;
+  color: #c9ab81; }
+
+.content_wrapper .title_Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px; }
+  .content_wrapper .title_Wrapper h3 {
+    font-family: Caviar Dreams;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.25em;
+    color: #c9ab81;
+    width: min-content; }
+  .content_wrapper .title_Wrapper .left_svg,
+  .content_wrapper .title_Wrapper .right_svg {
+    margin: 0 auto; }
+
+.content_wrapper p {
+  font-family: Josefin Sans;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  margin: 0px 12.1vw 90px; }
+
+@media only screen and (min-width: 768px) {
+  .content_wrapper {
+    margin: 0px auto; }
+    .content_wrapper p {
+      margin: 0 auto; } }
+
+.title_Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px; }
+  .title_Wrapper h3 {
+    font-family: Caviar Dreams;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.25em;
+    color: #c9ab81;
+    width: min-content; }
+  .title_Wrapper .left_svg,
+  .title_Wrapper .right_svg {
+    margin: 0 auto; }
+  @media only screen and (min-width: 768px) {
+    .title_Wrapper h3 {
+      width: max-content;
+      margin: 0px 70px;
+      font-size: 36px; }
+    .title_Wrapper .left_svg,
+    .title_Wrapper .right_svg {
+      margin: initial; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  * img {
+    display: block; }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #0b1315; }
+  body p,
+  body h1,
+  body h3,
+  body h5,
+  body h6,
+  body a {
+    color: #ffffff; }

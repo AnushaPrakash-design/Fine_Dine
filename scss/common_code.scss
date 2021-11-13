@@ -69,6 +69,14 @@
 		color: #ffffff;
 		margin: 0px 12.1vw 90px;
 	}
+	@media only screen and (min-width: 768px) {
+		margin: 0px auto;
+
+		p {
+			// max-width: 52vw;
+			margin: 0 auto;
+		}
+	}
 }
 
 //   TITLE_WRAPPER   //
@@ -94,8 +102,18 @@
 	.right_svg {
 		margin: 0 auto;
 	}
+	@media only screen and (min-width: 768px) {
+		h3 {
+			width: max-content;
+			margin: 0px 70px;
+			font-size: 36px;
+		}
+		.left_svg,
+		.right_svg {
+			margin: initial;
+		}
+	}
 }
-
 //   UNIVERSAL   //
 
 * {

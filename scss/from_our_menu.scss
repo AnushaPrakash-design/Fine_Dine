@@ -17,22 +17,21 @@
 	}
 
 	.card {
-		h5 {
-			font-family: Caviar Dreams;
-			font-weight: bold;
-			font-size: 14px;
-			letter-spacing: 0.2em;
-			text-transform: uppercase;
-			color: #c9ab81;
-			margin: 40px 0px 10px 14vw;
-		}
+		h5,
 		h4 {
 			font-family: Caviar Dreams;
 			font-weight: bold;
-			font-size: 19px;
-			letter-spacing: 0.04em;
 			text-transform: uppercase;
 			color: #c9ab81;
+		}
+		h5 {
+			font-size: 14px;
+			letter-spacing: 0.2em;
+			margin: 40px 0px 10px 14vw;
+		}
+		h4 {
+			font-size: 19px;
+			letter-spacing: 0.04em;
 			margin: 0px 0px 10px 14vw;
 		}
 		p {
@@ -41,7 +40,6 @@
 			font-size: 19px;
 			line-height: 29px;
 			letter-spacing: 0.04em;
-			color: #ffffff;
 			margin: 0px 14vw;
 		}
 	}
