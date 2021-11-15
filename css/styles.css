@@ -606,6 +606,23 @@ body {
   body a {
     color: #ffffff; }
 
+#preloader {
+  background: #0f1d22;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #preloader h3 {
+    font-family: Mr Dafoe;
+    font-size: 48px;
+    font-weight: normal;
+    color: #c9ab81;
+    width: max-content;
+    word-spacing: 10px; }
+
 @font-face {
   font-family: Caviar Dreams;
   src: url("../fonts/CaviarDreams.ttf");

@@ -6,13 +6,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Pine & Dine</title>
 		<link rel="stylesheet" href="./css/styles.css" />
+		<link rel="icon" href="./images/patterns/ico.svg" type="image/x-icon" />
 	</head>
 	<body>
+		<div id="preloader">
+			<h3>Pine &Dine</h3>
+		</div>
+
 		<!-- HEADER -->
 
 		<header>
 			<nav>
-				<h5>Pine &Dine</h5>
+				<h5>Pine & Dine</h5>
 				<img src="./images/header/hamburger.svg" alt="" />
 			</nav>
 		</header>
@@ -334,5 +339,12 @@
 				<a href="https://www.tripadvisor.com/">Trip Advisor</a>
 			</div>
 		</footer>
+
+		<script>
+			var loader = document.getElementById("preloader");
+			window.addEventListener("load", function () {
+				loader.style.display = "none";
+			});
+		</script>
 	</body>
 </html>
