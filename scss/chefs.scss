@@ -13,4 +13,41 @@
 			margin: 0 auto;
 		}
 	}
+	@media only screen and (min-width: 768px) {
+		.image_wrapper {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 435px;
+			width: 100%;
+			margin-top: 150px;
+			.top_image {
+				padding: 0px;
+				margin: 0px;
+				height: 100%;
+				width: initial;
+				padding-right: 27px;
+			}
+			.bottom_image {
+				padding: 0px;
+				margin: 0px;
+				height: 100%;
+				width: initial;
+				padding-left: 27px;
+			}
+		}
+		.content_wrapper {
+			h5 {
+				margin-top: 80px;
+			}
+		}
+	}
+	@media only screen and (min-width: 1024px) {
+		.image_wrapper {
+			height: 568px;
+		}
+	}
+
+	@media only screen and (min-width: 1440px) and (orientation: landscape) {
+	}
 }

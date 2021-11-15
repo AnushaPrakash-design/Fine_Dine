@@ -26,3 +26,18 @@ footer {
     text-decoration: solid underline #c9ab81;
     text-decoration-thickness: 1px;
     text-underline-offset: 5px; }
+  @media only screen and (min-width: 1024px) {
+    footer {
+      width: 100%; }
+      footer p {
+        width: 50%;
+        margin: 0 auto 40px; }
+        footer p br {
+          display: none; }
+      footer .links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        margin: 60px auto 0px;
+        grid-gap: 6%; } }

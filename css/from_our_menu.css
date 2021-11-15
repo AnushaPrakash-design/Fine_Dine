@@ -1,6 +1,10 @@
 .from_our_menu {
   background: #0f1d22;
-  width: 100%; }
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 150px; }
   .from_our_menu .title_wrapper h5 {
     padding-top: 16vh;
     margin: 0 auto 15px;
@@ -34,5 +38,28 @@
     letter-spacing: 0.04em;
     margin: 0px 14vw; }
   .from_our_menu .butt {
-    margin-top: 65px;
-    padding-bottom: 150px; }
+    margin-top: 65px; }
+  .from_our_menu .circle_pattern img {
+    display: none; }
+  @media only screen and (min-width: 768px) {
+    .from_our_menu {
+      padding-bottom: 104px; }
+      .from_our_menu .title_wrapper h3 {
+        width: max-content;
+        margin: 0px 60px;
+        font-size: 41px; }
+      .from_our_menu .title_wrapper .left_svg,
+      .from_our_menu .title_wrapper .right_svg {
+        margin: initial; }
+      .from_our_menu .butt {
+        margin-top: 65px; }
+      .from_our_menu .circle_pattern {
+        width: 270px;
+        height: 270px;
+        position: absolute;
+        left: -73px;
+        bottom: -118px; }
+        .from_our_menu .circle_pattern img {
+          display: block;
+          width: 100%;
+          height: 100%; } }

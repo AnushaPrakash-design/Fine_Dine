@@ -9,3 +9,28 @@
     width: 74.7vw;
     height: 100%;
     margin: 0 auto; }
+  @media only screen and (min-width: 768px) {
+    .chefs .image_wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 435px;
+      width: 100%;
+      margin-top: 150px; }
+      .chefs .image_wrapper .top_image {
+        padding: 0px;
+        margin: 0px;
+        height: 100%;
+        width: initial;
+        padding-right: 27px; }
+      .chefs .image_wrapper .bottom_image {
+        padding: 0px;
+        margin: 0px;
+        height: 100%;
+        width: initial;
+        padding-left: 27px; }
+    .chefs .content_wrapper h5 {
+      margin-top: 80px; } }
+  @media only screen and (min-width: 1024px) {
+    .chefs .image_wrapper {
+      height: 568px; } }

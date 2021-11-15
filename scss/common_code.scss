@@ -26,8 +26,8 @@
 
 .content_wrapper {
 	h5 {
-		padding-top: 16vh;
-		margin: 0 auto 15px;
+		// margin-top: 150px;
+		margin: 150px auto 15px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -70,11 +70,21 @@
 		margin: 0px 12.1vw 90px;
 	}
 	@media only screen and (min-width: 768px) {
-		margin: 0px auto;
-
+		.title_Wrapper {
+			h3 {
+				width: max-content;
+				margin: 0px 70px;
+				font-size: 41px;
+			}
+			.left_svg,
+			.right_svg {
+				margin: initial;
+			}
+		}
 		p {
-			// max-width: 52vw;
+			width: 50%;
 			margin: 0 auto;
+			margin-bottom: 80px;
 		}
 	}
 }
@@ -102,17 +112,17 @@
 	.right_svg {
 		margin: 0 auto;
 	}
-	@media only screen and (min-width: 768px) {
-		h3 {
-			width: max-content;
-			margin: 0px 70px;
-			font-size: 36px;
-		}
-		.left_svg,
-		.right_svg {
-			margin: initial;
-		}
-	}
+	// @media only screen and (min-width: 768px) {
+	// 	h3 {
+	// 		width: max-content;
+	// 		margin: 0px 70px;
+	// 		font-size: 36px;
+	// 	}
+	// 	.left_svg,
+	// 	.right_svg {
+	// 		margin: initial;
+	// 	}
+	// }
 }
 //   UNIVERSAL   //
 

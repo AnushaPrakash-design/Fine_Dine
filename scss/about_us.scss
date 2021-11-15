@@ -43,6 +43,9 @@
 				width: 80vw;
 				margin: 0px auto;
 			}
+			.pattern_ipad {
+				display: none;
+			}
 		}
 		.bottom {
 			position: relative;
@@ -79,6 +82,39 @@
 	@media only screen and (min-width: 768px) {
 		.image_wrapper {
 			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 315px;
+			width: 100%;
+			margin-bottom: 150px;
+			.top {
+				height: 100%;
+				width: 29vw;
+				margin: 0;
+				.top_image {
+					height: 100%;
+					width: 100%;
+				}
+			}
+			.pattern {
+				margin: 0px 38px;
+				.pattern_1 {
+					display: none;
+				}
+				.pattern_ipad {
+					display: block;
+				}
+			}
+			.bottom {
+				// margin-top: 0px;
+				height: 100%;
+				width: 29vw;
+				margin: 0;
+				.bottom_image {
+					height: 100%;
+					width: 100%;
+				}
+			}
 		}
 	}
 	@media only screen and (min-width: 1440px) and (orientation: landscape) {

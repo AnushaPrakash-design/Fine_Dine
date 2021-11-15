@@ -1,5 +1,5 @@
 .landing_page {
-  min-height: 92vh;
+  height: 92vh;
   width: 100%;
   position: relative;
   overflow: hidden; }
@@ -20,12 +20,15 @@
     height: 100%;
     background: rgba(11, 19, 21, 0.6);
     z-index: -1; }
-  .landing_page .content_wrapper {
+  .landing_page .content_wrapper_landing {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 22vh; }
-    .landing_page .content_wrapper h1 {
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+    .landing_page .content_wrapper_landing h1 {
       font-family: Mr Dafoe;
       font-weight: normal;
       font-size: 81.4026px;
@@ -33,8 +36,8 @@
       text-align: center;
       width: min-content;
       color: #c9ab81;
-      margin: 0 auto 40px; }
-    .landing_page .content_wrapper p {
+      margin-bottom: 40px; }
+    .landing_page .content_wrapper_landing p {
       font-family: Josefin Sans;
       font-weight: 300;
       font-size: 23px;
@@ -42,7 +45,8 @@
       text-align: center;
       letter-spacing: -0.04em;
       color: #ffffff;
-      margin: 0px 10.7vw 40px; }
+      margin-bottom: 40px;
+      width: 80%; }
   @media only screen and (min-width: 768px) {
     .landing_page .background_image {
       background-position: 5% center;
@@ -55,16 +59,15 @@
         display: none; }
     .landing_page .image_cover {
       z-index: 1; }
-    .landing_page .content_wrapper {
-      margin-top: 30vh;
+    .landing_page .content_wrapper_landing {
       position: absolute;
-      z-index: 3;
-      max-width: 50vw;
-      margin: 0 auto; }
-      .landing_page .content_wrapper h1 {
+      z-index: 3; }
+      .landing_page .content_wrapper_landing h1 {
         margin-bottom: 70px;
         width: max-content;
         word-spacing: 20px; }
-      .landing_page .content_wrapper p {
-        font-weight: 600;
-        margin-bottom: 70px; } }
+      .landing_page .content_wrapper_landing p {
+        font-weight: 500;
+        margin: 0;
+        margin-bottom: 70px;
+        max-width: 50vw; } }

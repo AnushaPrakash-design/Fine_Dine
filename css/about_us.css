@@ -28,6 +28,8 @@
   .about_us .image_wrapper .pattern .pattern_1 {
     width: 80vw;
     margin: 0px auto; }
+  .about_us .image_wrapper .pattern .pattern_ipad {
+    display: none; }
 
 .about_us .image_wrapper .bottom {
   position: relative;
@@ -54,4 +56,29 @@
 
 @media only screen and (min-width: 768px) {
   .about_us .image_wrapper {
-    display: flex; } }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 315px;
+    width: 100%;
+    margin-bottom: 150px; }
+    .about_us .image_wrapper .top {
+      height: 100%;
+      width: 29vw;
+      margin: 0; }
+      .about_us .image_wrapper .top .top_image {
+        height: 100%;
+        width: 100%; }
+    .about_us .image_wrapper .pattern {
+      margin: 0px 38px; }
+      .about_us .image_wrapper .pattern .pattern_1 {
+        display: none; }
+      .about_us .image_wrapper .pattern .pattern_ipad {
+        display: block; }
+    .about_us .image_wrapper .bottom {
+      height: 100%;
+      width: 29vw;
+      margin: 0; }
+      .about_us .image_wrapper .bottom .bottom_image {
+        height: 100%;
+        width: 100%; } }

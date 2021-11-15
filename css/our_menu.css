@@ -1,23 +1,23 @@
 .our_menu {
   width: 100%;
-  margin-bottom: 150px; }
-  .our_menu .top,
-  .our_menu .mid,
-  .our_menu .bot {
+  margin-bottom: 250px; }
+  .our_menu .image_wrapper .top,
+  .our_menu .image_wrapper .mid,
+  .our_menu .image_wrapper .bot {
     position: relative;
-    width: 74.7vw;
+    width: 75vw;
     height: 380px;
     display: block;
-    margin: 75px auto 35px; }
-    .our_menu .top .top_image,
-    .our_menu .top .mid_image,
-    .our_menu .top .bot_image,
-    .our_menu .mid .top_image,
-    .our_menu .mid .mid_image,
-    .our_menu .mid .bot_image,
-    .our_menu .bot .top_image,
-    .our_menu .bot .mid_image,
-    .our_menu .bot .bot_image {
+    margin: 75px auto 150px; }
+    .our_menu .image_wrapper .top .top_image,
+    .our_menu .image_wrapper .top .mid_image,
+    .our_menu .image_wrapper .top .bot_image,
+    .our_menu .image_wrapper .mid .top_image,
+    .our_menu .image_wrapper .mid .mid_image,
+    .our_menu .image_wrapper .mid .bot_image,
+    .our_menu .image_wrapper .bot .top_image,
+    .our_menu .image_wrapper .bot .mid_image,
+    .our_menu .image_wrapper .bot .bot_image {
       position: absolute;
       top: 0;
       margin: 0 auto;
@@ -25,36 +25,53 @@
       height: 100%;
       object-fit: cover;
       object-position: 10% 60%; }
-  .our_menu .top_img_overlay {
+  .our_menu .image_wrapper .top_img_overlay {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.3); }
-  .our_menu .mid_img_overlay {
+  .our_menu .image_wrapper .mid_img_overlay {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.25); }
-  .our_menu .title_wrapper h5 {
-    font-family: Caviar Dreams;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 19px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #c9ab81;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-  .our_menu .title_wrapper h6 {
-    font-family: Josefin Sans;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 39px;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
+  .our_menu .image_wrapper .title_wrapper {
+    padding-top: 415px; }
+    .our_menu .image_wrapper .title_wrapper h5 {
+      font-family: Caviar Dreams;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 19px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #c9ab81;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    .our_menu .image_wrapper .title_wrapper h6 {
+      font-family: Josefin Sans;
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 39px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+  @media only screen and (min-width: 768px) {
+    .our_menu .top,
+    .our_menu .mid,
+    .our_menu .bot {
+      height: 500px; } }
+  @media only screen and (min-width: 1024px) {
+    .our_menu {
+      margin-bottom: 100px; }
+      .our_menu .image_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 85%;
+        margin: 0 auto;
+        grid-gap: 4%; } }
