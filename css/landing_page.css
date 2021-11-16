@@ -78,3 +78,11 @@
       font-size: 96px; }
     .landing_page .content_wrapper_landing p {
       max-width: 35vw; } }
+  @media only screen and (min-width: 1920px) {
+    .landing_page {
+      height: 95vh; }
+      .landing_page .content_wrapper_landing h1 {
+        margin-bottom: 40px; }
+      .landing_page .content_wrapper_landing p {
+        margin-bottom: 40px;
+        width: 30vw; } }

@@ -15,9 +15,6 @@ header {
       color: #c9ab81; }
     header nav img {
       margin-left: auto; }
-  @media only screen and (min-width: 1440px) and (orientation: landscape) {
-    header nav {
-      padding: 3vh 7vw; } }
 
 .landing_page {
   height: 92vh;
@@ -99,6 +96,14 @@ header {
       font-size: 96px; }
     .landing_page .content_wrapper_landing p {
       max-width: 35vw; } }
+  @media only screen and (min-width: 1920px) {
+    .landing_page {
+      height: 95vh; }
+      .landing_page .content_wrapper_landing h1 {
+        margin-bottom: 40px; }
+      .landing_page .content_wrapper_landing p {
+        margin-bottom: 40px;
+        width: 30vw; } }
 
 .about_us .image_wrapper .top {
   position: relative;
@@ -131,7 +136,8 @@ header {
     width: 80vw;
     margin: 0px auto; }
   .about_us .image_wrapper .pattern .pattern_ipad,
-  .about_us .image_wrapper .pattern .pattern_desktop {
+  .about_us .image_wrapper .pattern .pattern_desktop,
+  .about_us .image_wrapper .pattern .pattern_desktop_L {
     display: none; }
 
 .about_us .image_wrapper .bottom {
@@ -175,7 +181,8 @@ header {
     .about_us .image_wrapper .pattern {
       margin: 0px 38px; }
       .about_us .image_wrapper .pattern .pattern_1,
-      .about_us .image_wrapper .pattern .pattern_desktop {
+      .about_us .image_wrapper .pattern .pattern_desktop,
+      .about_us .image_wrapper .pattern .pattern_desktop_L {
         display: none; }
       .about_us .image_wrapper .pattern .pattern_ipad {
         display: block; }
@@ -194,9 +201,23 @@ header {
     margin: 0 auto 150px;
     grid-gap: 2%; }
     .about_us .image_wrapper .pattern .pattern_ipad,
-    .about_us .image_wrapper .pattern .pattern_1 {
+    .about_us .image_wrapper .pattern .pattern_1,
+    .about_us .image_wrapper .pattern .pattern_desktop_L {
       display: none; }
     .about_us .image_wrapper .pattern .pattern_desktop {
+      display: block; } }
+
+@media only screen and (min-width: 1920px) {
+  .about_us .image_wrapper {
+    height: 600px;
+    width: 70vw;
+    margin: 0 auto 160px;
+    grid-gap: 3%; }
+    .about_us .image_wrapper .pattern .pattern_ipad,
+    .about_us .image_wrapper .pattern .pattern_1,
+    .about_us .image_wrapper .pattern .pattern_desktop {
+      display: none; }
+    .about_us .image_wrapper .pattern .pattern_desktop_L {
       display: block; } }
 
 .reviews {
@@ -277,6 +298,13 @@ header {
         .reviews .image_wrapper .img_overlay {
           width: 100%;
           height: 100%; } }
+  @media only screen and (min-width: 1920px) {
+    .reviews {
+      height: 850px; }
+      .reviews .content_wrapper p {
+        width: 25vw; }
+      .reviews .image_wrapper {
+        height: 850px; } }
 
 .recommendation {
   padding-top: 120px; }
@@ -347,6 +375,20 @@ header {
           margin-bottom: 50px; }
         .recommendation .content_wrapper .butt button {
           margin-bottom: 0px; } }
+  @media only screen and (min-width: 1920px) {
+    .recommendation {
+      margin: 160px 0px; }
+      .recommendation .bottom_img_wrapper {
+        width: 32vw;
+        height: 550px;
+        margin-left: 14.5vw; }
+        .recommendation .bottom_img_wrapper .bottom_img_ {
+          object-position: 12% 60%; }
+      .recommendation .content_wrapper {
+        width: 650px;
+        margin-left: 7vw; }
+        .recommendation .content_wrapper h5 {
+          margin-top: 100px; } }
 
 .from_our_menu {
   background: #0f1d22;
@@ -439,6 +481,10 @@ header {
         margin: 0px; }
     .from_our_menu .butt {
       margin-top: 85px; } }
+  @media only screen and (min-width: 1920px) {
+    .from_our_menu .circle_pattern {
+      width: 325px;
+      height: 325px; } }
 
 .chefs {
   width: 100%; }
@@ -506,6 +552,22 @@ header {
           margin-bottom: 50px; }
         .chefs .content_wrapper .butt button {
           margin-bottom: 0px; } }
+  @media only screen and (min-width: 1920px) {
+    .chefs {
+      margin: 180px 0px; }
+      .chefs .image_wrapper {
+        height: 600px; }
+        .chefs .image_wrapper .top_image {
+          padding-right: 30px; }
+        .chefs .image_wrapper .bottom_image {
+          padding-left: 30px; }
+      .chefs .content_wrapper {
+        width: 600px;
+        margin-left: -120px; }
+        .chefs .content_wrapper h5 {
+          margin-top: 150px; }
+        .chefs .content_wrapper p {
+          width: 80%; } }
 
 .our_menu {
   width: 100%;
@@ -594,6 +656,16 @@ header {
         height: 500px; }
       .our_menu .image_wrapper .title_wrapper {
         padding-top: 550px; } }
+  @media only screen and (min-width: 1920px) {
+    .our_menu .image_wrapper {
+      grid-gap: 4%;
+      width: 70%; }
+      .our_menu .image_wrapper .top,
+      .our_menu .image_wrapper .mid,
+      .our_menu .image_wrapper .bot {
+        height: 620px; }
+      .our_menu .image_wrapper .title_wrapper {
+        padding-top: 675px; } }
 
 footer {
   background: #0f1d22;
@@ -642,6 +714,9 @@ footer {
     footer .links {
       grid-gap: 3%;
       width: 40%; } }
+  @media only screen and (min-width: 1920px) {
+    footer .links {
+      width: 25%; } }
 
 .butt {
   display: flex;
@@ -717,6 +792,10 @@ footer {
 @media only screen and (min-width: 1440px) and (orientation: landscape) {
   .content_wrapper p {
     width: 35%; } }
+
+@media only screen and (min-width: 1920px) {
+  .content_wrapper p {
+    width: 28%; } }
 
 .title_Wrapper {
   display: flex;

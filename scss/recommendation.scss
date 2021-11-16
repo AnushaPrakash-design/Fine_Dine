@@ -100,4 +100,22 @@
 			}
 		}
 	}
+	@media only screen and (min-width: 1920px) {
+		margin: 160px 0px;
+		.bottom_img_wrapper {
+			width: 32vw;
+			height: 550px;
+			margin-left: 14.5vw;
+			.bottom_img_ {
+				object-position: 12% 60%;
+			}
+		}
+		.content_wrapper {
+			width: 650px;
+			margin-left: 7vw;
+			h5 {
+				margin-top: 100px;
+			}
+		}
+	}
 }

@@ -73,6 +73,10 @@
   .content_wrapper p {
     width: 35%; } }
 
+@media only screen and (min-width: 1920px) {
+  .content_wrapper p {
+    width: 28%; } }
+
 .title_Wrapper {
   display: flex;
   align-items: center;

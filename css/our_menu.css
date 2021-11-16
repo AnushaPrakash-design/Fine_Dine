@@ -85,3 +85,13 @@
         height: 500px; }
       .our_menu .image_wrapper .title_wrapper {
         padding-top: 550px; } }
+  @media only screen and (min-width: 1920px) {
+    .our_menu .image_wrapper {
+      grid-gap: 4%;
+      width: 70%; }
+      .our_menu .image_wrapper .top,
+      .our_menu .image_wrapper .mid,
+      .our_menu .image_wrapper .bot {
+        height: 620px; }
+      .our_menu .image_wrapper .title_wrapper {
+        padding-top: 675px; } }

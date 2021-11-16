@@ -134,4 +134,10 @@
 			// padding-bottom: 110px;
 		}
 	}
+	@media only screen and (min-width: 1920px) {
+		.circle_pattern {
+			width: 325px;
+			height: 325px;
+		}
+	}
 }

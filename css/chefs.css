@@ -64,3 +64,19 @@
           margin-bottom: 50px; }
         .chefs .content_wrapper .butt button {
           margin-bottom: 0px; } }
+  @media only screen and (min-width: 1920px) {
+    .chefs {
+      margin: 180px 0px; }
+      .chefs .image_wrapper {
+        height: 600px; }
+        .chefs .image_wrapper .top_image {
+          padding-right: 30px; }
+        .chefs .image_wrapper .bottom_image {
+          padding-left: 30px; }
+      .chefs .content_wrapper {
+        width: 600px;
+        margin-left: -120px; }
+        .chefs .content_wrapper h5 {
+          margin-top: 150px; }
+        .chefs .content_wrapper p {
+          width: 80%; } }

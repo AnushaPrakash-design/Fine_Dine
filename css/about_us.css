@@ -29,7 +29,8 @@
     width: 80vw;
     margin: 0px auto; }
   .about_us .image_wrapper .pattern .pattern_ipad,
-  .about_us .image_wrapper .pattern .pattern_desktop {
+  .about_us .image_wrapper .pattern .pattern_desktop,
+  .about_us .image_wrapper .pattern .pattern_desktop_L {
     display: none; }
 
 .about_us .image_wrapper .bottom {
@@ -73,7 +74,8 @@
     .about_us .image_wrapper .pattern {
       margin: 0px 38px; }
       .about_us .image_wrapper .pattern .pattern_1,
-      .about_us .image_wrapper .pattern .pattern_desktop {
+      .about_us .image_wrapper .pattern .pattern_desktop,
+      .about_us .image_wrapper .pattern .pattern_desktop_L {
         display: none; }
       .about_us .image_wrapper .pattern .pattern_ipad {
         display: block; }
@@ -92,7 +94,21 @@
     margin: 0 auto 150px;
     grid-gap: 2%; }
     .about_us .image_wrapper .pattern .pattern_ipad,
-    .about_us .image_wrapper .pattern .pattern_1 {
+    .about_us .image_wrapper .pattern .pattern_1,
+    .about_us .image_wrapper .pattern .pattern_desktop_L {
       display: none; }
     .about_us .image_wrapper .pattern .pattern_desktop {
+      display: block; } }
+
+@media only screen and (min-width: 1920px) {
+  .about_us .image_wrapper {
+    height: 600px;
+    width: 70vw;
+    margin: 0 auto 160px;
+    grid-gap: 3%; }
+    .about_us .image_wrapper .pattern .pattern_ipad,
+    .about_us .image_wrapper .pattern .pattern_1,
+    .about_us .image_wrapper .pattern .pattern_desktop {
+      display: none; }
+    .about_us .image_wrapper .pattern .pattern_desktop_L {
       display: block; } }

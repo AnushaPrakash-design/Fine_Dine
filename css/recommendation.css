@@ -67,3 +67,17 @@
           margin-bottom: 50px; }
         .recommendation .content_wrapper .butt button {
           margin-bottom: 0px; } }
+  @media only screen and (min-width: 1920px) {
+    .recommendation {
+      margin: 160px 0px; }
+      .recommendation .bottom_img_wrapper {
+        width: 32vw;
+        height: 550px;
+        margin-left: 14.5vw; }
+        .recommendation .bottom_img_wrapper .bottom_img_ {
+          object-position: 12% 60%; }
+      .recommendation .content_wrapper {
+        width: 650px;
+        margin-left: 7vw; }
+        .recommendation .content_wrapper h5 {
+          margin-top: 100px; } }

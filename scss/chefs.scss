@@ -91,4 +91,27 @@
 			}
 		}
 	}
+	@media only screen and (min-width: 1920px) {
+		margin: 180px 0px;
+		.image_wrapper {
+			height: 600px;
+			.top_image {
+				padding-right: 30px;
+			}
+			.bottom_image {
+				padding-left: 30px;
+			}
+		}
+		.content_wrapper {
+			width: 600px;
+			margin-left: -120px;
+			h5 {
+				margin-top: 150px;
+			}
+
+			p {
+				width: 80%;
+			}
+		}
+	}
 }

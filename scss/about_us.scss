@@ -44,7 +44,8 @@
 				margin: 0px auto;
 			}
 			.pattern_ipad,
-			.pattern_desktop {
+			.pattern_desktop,
+			.pattern_desktop_L {
 				display: none;
 			}
 		}
@@ -100,7 +101,8 @@
 			.pattern {
 				margin: 0px 38px;
 				.pattern_1,
-				.pattern_desktop {
+				.pattern_desktop,
+				.pattern_desktop_L {
 					display: none;
 				}
 				.pattern_ipad {
@@ -128,10 +130,30 @@
 
 			.pattern {
 				.pattern_ipad,
-				.pattern_1 {
+				.pattern_1,
+				.pattern_desktop_L {
 					display: none;
 				}
 				.pattern_desktop {
+					display: block;
+				}
+			}
+		}
+	}
+	@media only screen and (min-width: 1920px) {
+		.image_wrapper {
+			height: 600px;
+			width: 70vw;
+			margin: 0 auto 160px;
+			grid-gap: 3%;
+
+			.pattern {
+				.pattern_ipad,
+				.pattern_1,
+				.pattern_desktop {
+					display: none;
+				}
+				.pattern_desktop_L {
 					display: block;
 				}
 			}
