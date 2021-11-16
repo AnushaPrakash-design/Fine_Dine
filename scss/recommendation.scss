@@ -53,5 +53,51 @@
 	}
 
 	@media only screen and (min-width: 1440px) and (orientation: landscape) {
+		display: flex;
+		margin: 150px 0px;
+		padding-top: 0px;
+		.bottom_img_wrapper {
+			width: 35vw;
+			height: 460px;
+			margin-left: 160px;
+
+			.bottom_img_ {
+				height: 100%;
+				width: 100%;
+				top: 0;
+				left: 0;
+				object-fit: cover;
+				object-position: 12% 40%;
+			}
+			.bottom_img_overlay {
+				height: 100%;
+				width: 100%;
+				top: 0;
+				left: 0;
+			}
+		}
+		.content_wrapper {
+			width: 600px;
+			margin-left: 40px;
+			h5 {
+				margin-top: 40px;
+			}
+			.title_Wrapper {
+				h3 {
+					width: min-content;
+					line-height: 1.31em;
+					letter-spacing: 0.08em;
+				}
+			}
+			p {
+				width: 80%;
+				margin-bottom: 50px;
+			}
+			.butt {
+				button {
+					margin-bottom: 0px;
+				}
+			}
+		}
 	}
 }

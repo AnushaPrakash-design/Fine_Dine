@@ -43,7 +43,8 @@
 				width: 80vw;
 				margin: 0px auto;
 			}
-			.pattern_ipad {
+			.pattern_ipad,
+			.pattern_desktop {
 				display: none;
 			}
 		}
@@ -98,7 +99,8 @@
 			}
 			.pattern {
 				margin: 0px 38px;
-				.pattern_1 {
+				.pattern_1,
+				.pattern_desktop {
 					display: none;
 				}
 				.pattern_ipad {
@@ -118,5 +120,21 @@
 		}
 	}
 	@media only screen and (min-width: 1440px) and (orientation: landscape) {
+		.image_wrapper {
+			height: 470px;
+			width: 75vw;
+			margin: 0 auto 150px;
+			grid-gap: 2%;
+
+			.pattern {
+				.pattern_ipad,
+				.pattern_1 {
+					display: none;
+				}
+				.pattern_desktop {
+					display: block;
+				}
+			}
+		}
 	}
 }

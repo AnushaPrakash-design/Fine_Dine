@@ -90,5 +90,48 @@
 	}
 
 	@media only screen and (min-width: 1440px) and (orientation: landscape) {
+		.card_wrapper {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			grid-gap: 6%;
+			.card_wrap_1 {
+				// width: 510px;
+				.card {
+					h5 {
+						margin: 40px 0px 10px 0px;
+						width: 100%;
+					}
+					h4 {
+						margin: 0px 0px 10px 0vw;
+						width: 100%;
+					}
+					p {
+						width: 100%;
+						margin: 0px;
+					}
+				}
+			}
+			.card_wrap_2 {
+				.card {
+					h5 {
+						margin: 40px 0px 10px 0px;
+						width: 100%;
+					}
+					h4 {
+						margin: 0px 0px 10px 0vw;
+						width: 100%;
+					}
+					p {
+						width: 100%;
+						margin: 0px;
+					}
+				}
+			}
+		}
+		.butt {
+			margin-top: 85px;
+			// padding-bottom: 110px;
+		}
 	}
 }

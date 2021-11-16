@@ -34,3 +34,33 @@
   @media only screen and (min-width: 1024px) {
     .chefs .image_wrapper {
       height: 568px; } }
+  @media only screen and (min-width: 1440px) and (orientation: landscape) {
+    .chefs {
+      display: flex;
+      margin: 160px 0px; }
+      .chefs .image_wrapper {
+        margin-top: 0px;
+        width: 60vw;
+        height: 465px; }
+        .chefs .image_wrapper .top_image {
+          height: 100%;
+          width: initial;
+          padding-right: 20px; }
+        .chefs .image_wrapper .bottom_image {
+          height: 100%;
+          width: initial;
+          padding-left: 20px; }
+      .chefs .content_wrapper {
+        width: 600px;
+        margin-left: -80px; }
+        .chefs .content_wrapper h5 {
+          margin-top: 70px; }
+        .chefs .content_wrapper .title_Wrapper h3 {
+          width: max-content;
+          line-height: 1.31em;
+          letter-spacing: 0.08em; }
+        .chefs .content_wrapper p {
+          width: 65%;
+          margin-bottom: 50px; }
+        .chefs .content_wrapper .butt button {
+          margin-bottom: 0px; } }

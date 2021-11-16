@@ -69,6 +69,10 @@
     margin: 0 auto;
     margin-bottom: 80px; } }
 
+@media only screen and (min-width: 1440px) and (orientation: landscape) {
+  .content_wrapper p {
+    width: 35%; } }
+
 .title_Wrapper {
   display: flex;
   align-items: center;

@@ -13,7 +13,9 @@
       width: 100%;
       left: 0;
       top: 0;
-      z-index: -2; }
+      z-index: -2;
+      object-fit: cover;
+      object-position: 40% 60%; }
   .landing_page .image_cover {
     position: absolute;
     width: 100%;
@@ -71,3 +73,8 @@
         margin: 0;
         margin-bottom: 70px;
         max-width: 50vw; } }
+  @media only screen and (min-width: 1440px) and (orientation: landscape) {
+    .landing_page .content_wrapper_landing h1 {
+      font-size: 96px; }
+    .landing_page .content_wrapper_landing p {
+      max-width: 35vw; } }

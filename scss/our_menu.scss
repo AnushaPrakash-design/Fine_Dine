@@ -89,5 +89,17 @@
 	}
 
 	@media only screen and (min-width: 1440px) and (orientation: landscape) {
+		.image_wrapper {
+			grid-gap: 4%;
+			width: 80%;
+			.top,
+			.mid,
+			.bot {
+				height: 500px;
+			}
+			.title_wrapper {
+				padding-top: 550px;
+			}
+		}
 	}
 }

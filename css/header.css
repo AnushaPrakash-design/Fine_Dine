@@ -14,3 +14,6 @@ header {
       color: #c9ab81; }
     header nav img {
       margin-left: auto; }
+  @media only screen and (min-width: 1440px) and (orientation: landscape) {
+    header nav {
+      padding: 3vh 7vw; } }

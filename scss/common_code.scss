@@ -87,6 +87,11 @@
 			margin-bottom: 80px;
 		}
 	}
+	@media only screen and (min-width: 1440px) and (orientation: landscape) {
+		p {
+			width: 35%;
+		}
+	}
 }
 
 //   TITLE_WRAPPER   //

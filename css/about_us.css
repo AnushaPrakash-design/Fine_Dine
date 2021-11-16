@@ -28,7 +28,8 @@
   .about_us .image_wrapper .pattern .pattern_1 {
     width: 80vw;
     margin: 0px auto; }
-  .about_us .image_wrapper .pattern .pattern_ipad {
+  .about_us .image_wrapper .pattern .pattern_ipad,
+  .about_us .image_wrapper .pattern .pattern_desktop {
     display: none; }
 
 .about_us .image_wrapper .bottom {
@@ -71,7 +72,8 @@
         width: 100%; }
     .about_us .image_wrapper .pattern {
       margin: 0px 38px; }
-      .about_us .image_wrapper .pattern .pattern_1 {
+      .about_us .image_wrapper .pattern .pattern_1,
+      .about_us .image_wrapper .pattern .pattern_desktop {
         display: none; }
       .about_us .image_wrapper .pattern .pattern_ipad {
         display: block; }
@@ -82,3 +84,15 @@
       .about_us .image_wrapper .bottom .bottom_image {
         height: 100%;
         width: 100%; } }
+
+@media only screen and (min-width: 1440px) and (orientation: landscape) {
+  .about_us .image_wrapper {
+    height: 470px;
+    width: 75vw;
+    margin: 0 auto 150px;
+    grid-gap: 2%; }
+    .about_us .image_wrapper .pattern .pattern_ipad,
+    .about_us .image_wrapper .pattern .pattern_1 {
+      display: none; }
+    .about_us .image_wrapper .pattern .pattern_desktop {
+      display: block; } }

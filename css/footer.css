@@ -41,3 +41,7 @@ footer {
         width: 50%;
         margin: 60px auto 0px;
         grid-gap: 6%; } }
+  @media only screen and (min-width: 1440px) and (orientation: landscape) {
+    footer .links {
+      grid-gap: 3%;
+      width: 40%; } }
