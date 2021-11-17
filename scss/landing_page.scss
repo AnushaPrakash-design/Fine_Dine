@@ -43,7 +43,7 @@
 		width: 100%;
 		height: 100%;
 		h1 {
-			font-family: Mr Dafoe;
+			font-family: Mr Dafoe, sans-serif;
 			font-weight: normal;
 			font-size: 81.4026px;
 			line-height: 84.5%;
@@ -53,7 +53,7 @@
 			margin-bottom: 40px;
 		}
 		p {
-			font-family: Josefin Sans;
+			font-family: Josefin Sans, sans-serif;
 			font-weight: 300;
 			font-size: 23px;
 			line-height: 33px;
@@ -67,39 +67,38 @@
 	}
 
 	@media only screen and (min-width: 768px) {
-		.background_image {
-			img {
-				display: none;
-			}
-			background-position: 5% center;
-			background-repeat: no-repeat;
-			background-size: cover;
-			background-image: url("/images/landing/landing_img.jpg");
+		height: 95vh;
+		// .background_image {
+		// 	img {
+		// 		display: none;
+		// 	}
+		// 	background-position: 5% center;
+		// 	background-repeat: no-repeat;
+		// 	background-size: cover;
+		// 	background-image: url("/images/landing/landing_img.jpg");
 
-			height: 100%;
-			width: 100%;
-		}
-		.image_cover {
-			z-index: 1;
-		}
+		// 	height: 100%;
+		// 	width: 100%;
+		// }
+		// .image_cover {
+		// 	z-index: 1;
+		// }
 		.content_wrapper_landing {
-			position: absolute;
-			z-index: 3;
+			// position: absolute;
+			// z-index: 3;
 
-			// max-width: 50vw;
-			// margin: 0 auto;
 			h1 {
 				// margin-top: 30vh;
-				margin-bottom: 70px;
+				margin-bottom: 30px;
 				width: max-content;
 				word-spacing: 20px;
 				// margin: 0px auto 70px;
 			}
 			p {
-				font-weight: 500;
+				// font-weight: 300;
 				margin: 0;
-				margin-bottom: 70px;
-				max-width: 50vw;
+				margin-bottom: 30px;
+				width: 50vw;
 			}
 		}
 	}
@@ -109,18 +108,15 @@
 				font-size: 96px;
 			}
 			p {
-				max-width: 35vw;
+				width: 35vw;
 			}
 		}
 	}
 	@media only screen and (min-width: 1920px) {
-		height: 95vh;
+		// height: 95vh;
 		.content_wrapper_landing {
-			h1 {
-				margin-bottom: 40px;
-			}
 			p {
-				margin-bottom: 40px;
+				// margin-bottom: 40px;
 				width: 30vw;
 			}
 		}

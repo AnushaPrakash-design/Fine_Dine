@@ -1,10 +1,8 @@
 .from_our_menu {
   background: #0f1d22;
   position: relative;
-  z-index: -1;
   width: 100%;
-  overflow: hidden;
-  padding-bottom: 150px; }
+  overflow: hidden; }
   .from_our_menu .title_wrapper h5 {
     padding-top: 16vh;
     margin: 0 auto 15px;

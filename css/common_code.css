@@ -1,89 +1,88 @@
-.butt {
+.btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0.804721px solid #c9ab81;
+  padding: 12px 33px 12px;
+  font-family: Open Sans Condensed, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0 auto;
+  letter-spacing: 0.36em;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out; }
+  .btn:hover {
+    background-color: #c9ab81; }
+
+.content_wrapper {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center; }
-  .butt .btn {
-    cursor: pointer;
-    background-color: transparent;
-    border: 0.804721px solid #c9ab81;
-    padding: 16px 33px 12px;
-    font-family: Josefin Sans;
+  .content_wrapper h5 {
+    margin: 150px auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Miniver, sans-serif;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 120%;
+    color: #c9ab81; }
+  .content_wrapper .title_Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 40px; }
+    .content_wrapper .title_Wrapper h3 {
+      font-family: Caviar Dreams, sans-serif;
+      font-weight: 700;
+      font-size: 31px;
+      line-height: 39px;
+      text-align: center;
+      letter-spacing: 0.25em;
+      color: #c9ab81;
+      width: min-content; }
+    .content_wrapper .title_Wrapper .left_svg,
+    .content_wrapper .title_Wrapper .right_svg {
+      margin: 0 auto; }
+  .content_wrapper p {
+    font-family: Josefin Sans, sans-serif;
     font-weight: 300;
-    font-size: 14px;
-    line-height: 14px;
-    letter-spacing: 0.1em;
-    color: #ffffff;
-    transition: all 0.2s ease-in-out; }
-    .butt .btn:hover {
-      background-color: #c9ab81; }
-
-.content_wrapper h5 {
-  margin: 150px auto 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: Miniver;
-  font-weight: normal;
-  font-size: 19px;
-  line-height: 120%;
-  color: #c9ab81; }
-
-.content_wrapper .title_Wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 40px; }
-  .content_wrapper .title_Wrapper h3 {
-    font-family: Caviar Dreams;
-    font-weight: 700;
-    font-size: 31px;
-    line-height: 39px;
+    font-size: 19px;
+    line-height: 29px;
     text-align: center;
-    letter-spacing: 0.25em;
-    color: #c9ab81;
-    width: min-content; }
-  .content_wrapper .title_Wrapper .left_svg,
-  .content_wrapper .title_Wrapper .right_svg {
-    margin: 0 auto; }
-
-.content_wrapper p {
-  font-family: Josefin Sans;
-  font-weight: normal;
-  font-size: 19px;
-  line-height: 29px;
-  text-align: center;
-  letter-spacing: -0.04em;
-  color: #ffffff;
-  margin: 0px 12.1vw 90px; }
-
-@media only screen and (min-width: 768px) {
-  .content_wrapper .title_Wrapper h3 {
-    width: max-content;
-    margin: 0px 70px;
-    font-size: 41px; }
-  .content_wrapper .title_Wrapper .left_svg,
-  .content_wrapper .title_Wrapper .right_svg {
-    margin: initial; }
-  .content_wrapper p {
-    width: 50%;
-    margin: 0 auto;
-    margin-bottom: 80px; } }
-
-@media only screen and (min-width: 1440px) and (orientation: landscape) {
-  .content_wrapper p {
-    width: 35%; } }
-
-@media only screen and (min-width: 1920px) {
-  .content_wrapper p {
-    width: 28%; } }
+    letter-spacing: -0.04em;
+    color: #ffffff;
+    margin: 0px 12.1vw 90px; }
+  @media only screen and (min-width: 768px) {
+    .content_wrapper .title_Wrapper h3 {
+      width: max-content;
+      margin: 0px 70px;
+      font-size: 41px; }
+    .content_wrapper .title_Wrapper .left_svg,
+    .content_wrapper .title_Wrapper .right_svg {
+      margin: initial; }
+    .content_wrapper p {
+      width: 50%;
+      margin: 0 auto;
+      margin-bottom: 80px; } }
+  @media only screen and (min-width: 1440px) and (orientation: landscape) {
+    .content_wrapper p {
+      width: 35%; } }
+  @media only screen and (min-width: 1920px) {
+    .content_wrapper p {
+      width: 28%; } }
 
 .title_Wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   margin-bottom: 70px; }
   .title_Wrapper h3 {
-    font-family: Caviar Dreams;
+    font-family: Caviar Dreams, sans-serif;
     font-weight: 700;
     font-size: 31px;
     line-height: 39px;
@@ -125,7 +124,7 @@ body {
   align-items: center;
   justify-content: center; }
   #preloader h3 {
-    font-family: Mr Dafoe;
+    font-family: Mr Dafoe, sans-serif;
     font-size: 48px;
     font-weight: normal;
     color: #c9ab81;

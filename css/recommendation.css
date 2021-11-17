@@ -12,14 +12,14 @@
       width: 74.2vw;
       height: 100%;
       object-fit: cover;
-      object-position: 5% 60%; }
+      object-position: center center; }
     .recommendation .bottom_img_wrapper .bottom_img_overlay {
       position: absolute;
       top: 0;
       left: 12.8vw;
       width: 74.2vw;
       height: 100%;
-      background: rgba(0, 0, 0, 0.2); }
+      background: rgba(0, 0, 0, 0.3); }
   .recommendation .content_wrapper .title_Wrapper h3 {
     letter-spacing: 0.05em; }
   .recommendation .btn {

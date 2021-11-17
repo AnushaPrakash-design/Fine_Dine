@@ -1,7 +1,9 @@
 .our_menu {
+	background: #0f1d22;
 	width: 100%;
-	margin-bottom: 250px;
+	padding-bottom: 2px;
 	.image_wrapper {
+		overflow: hidden;
 		.top,
 		.mid,
 		.bot {
@@ -77,7 +79,7 @@
 		}
 	}
 	@media only screen and (min-width: 1024px) {
-		margin-bottom: 100px;
+		// margin-bottom: 100px;
 		.image_wrapper {
 			display: flex;
 			align-items: center;

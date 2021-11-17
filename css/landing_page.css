@@ -31,7 +31,7 @@
     width: 100%;
     height: 100%; }
     .landing_page .content_wrapper_landing h1 {
-      font-family: Mr Dafoe;
+      font-family: Mr Dafoe, sans-serif;
       font-weight: normal;
       font-size: 81.4026px;
       line-height: 84.5%;
@@ -40,7 +40,7 @@
       color: #c9ab81;
       margin-bottom: 40px; }
     .landing_page .content_wrapper_landing p {
-      font-family: Josefin Sans;
+      font-family: Josefin Sans, sans-serif;
       font-weight: 300;
       font-size: 23px;
       line-height: 33px;
@@ -50,39 +50,21 @@
       margin-bottom: 40px;
       width: 80%; }
   @media only screen and (min-width: 768px) {
-    .landing_page .background_image {
-      background-position: 5% center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-image: url("/images/landing/landing_img.jpg");
-      height: 100%;
-      width: 100%; }
-      .landing_page .background_image img {
-        display: none; }
-    .landing_page .image_cover {
-      z-index: 1; }
-    .landing_page .content_wrapper_landing {
-      position: absolute;
-      z-index: 3; }
+    .landing_page {
+      height: 95vh; }
       .landing_page .content_wrapper_landing h1 {
-        margin-bottom: 70px;
+        margin-bottom: 30px;
         width: max-content;
         word-spacing: 20px; }
       .landing_page .content_wrapper_landing p {
-        font-weight: 500;
         margin: 0;
-        margin-bottom: 70px;
-        max-width: 50vw; } }
+        margin-bottom: 30px;
+        width: 50vw; } }
   @media only screen and (min-width: 1440px) and (orientation: landscape) {
     .landing_page .content_wrapper_landing h1 {
       font-size: 96px; }
     .landing_page .content_wrapper_landing p {
-      max-width: 35vw; } }
+      width: 35vw; } }
   @media only screen and (min-width: 1920px) {
-    .landing_page {
-      height: 95vh; }
-      .landing_page .content_wrapper_landing h1 {
-        margin-bottom: 40px; }
-      .landing_page .content_wrapper_landing p {
-        margin-bottom: 40px;
-        width: 30vw; } }
+    .landing_page .content_wrapper_landing p {
+      width: 30vw; } }

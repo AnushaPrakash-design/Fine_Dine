@@ -1,8 +1,7 @@
 footer {
-	background: #0f1d22;
 	width: 100%;
 	// max-height: 100vh;
-	padding: 150px 0px 60px;
+	margin: 150px 0px 60px;
 	h4 {
 		font-family: Mr Dafoe;
 		font-weight: normal;
@@ -35,6 +34,7 @@ footer {
 		}
 	}
 	@media only screen and (min-width: 768px) {
+		margin: 120px 0px 80px;
 	}
 
 	@media only screen and (min-width: 1024px) {
