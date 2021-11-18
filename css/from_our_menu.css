@@ -95,10 +95,12 @@
     .from_our_menu .butt {
       margin-top: 85px; } }
   @media only screen and (min-width: 1920px) {
-    .from_our_menu .card_wrapper {
-      margin-bottom: 100px; }
-    .from_our_menu .circle_pattern {
-      width: 325px;
-      height: 325px;
-      left: -73px;
-      bottom: -118px; } }
+    .from_our_menu {
+      padding-bottom: 150px; }
+      .from_our_menu .card_wrapper {
+        margin-bottom: 100px; }
+      .from_our_menu .circle_pattern {
+        width: 325px;
+        height: 325px;
+        left: -73px;
+        bottom: -118px; } }

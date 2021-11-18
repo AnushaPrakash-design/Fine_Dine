@@ -471,13 +471,15 @@ header {
     .from_our_menu .butt {
       margin-top: 85px; } }
   @media only screen and (min-width: 1920px) {
-    .from_our_menu .card_wrapper {
-      margin-bottom: 100px; }
-    .from_our_menu .circle_pattern {
-      width: 325px;
-      height: 325px;
-      left: -73px;
-      bottom: -118px; } }
+    .from_our_menu {
+      padding-bottom: 150px; }
+      .from_our_menu .card_wrapper {
+        margin-bottom: 100px; }
+      .from_our_menu .circle_pattern {
+        width: 325px;
+        height: 325px;
+        left: -73px;
+        bottom: -118px; } }
 
 .chefs {
   width: 100%; }
@@ -885,15 +887,13 @@ body {
   position: fixed;
   z-index: 100;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center; }
-  #preloader h3 {
-    font-family: Mr Dafoe, sans-serif;
-    font-size: 48px;
-    font-weight: normal;
-    color: #c9ab81;
-    width: max-content;
-    word-spacing: 10px; }
+  #preloader .img_1 {
+    margin: 30px; }
+  #preloader .img_2 {
+    margin-left: -15px; }
 
 @font-face {
   font-family: Caviar Dreams;

@@ -121,12 +121,10 @@ body {
   position: fixed;
   z-index: 100;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center; }
-  #preloader h3 {
-    font-family: Mr Dafoe, sans-serif;
-    font-size: 48px;
-    font-weight: normal;
-    color: #c9ab81;
-    width: max-content;
-    word-spacing: 10px; }
+  #preloader .img_1 {
+    margin: 30px; }
+  #preloader .img_2 {
+    margin-left: -15px; }
