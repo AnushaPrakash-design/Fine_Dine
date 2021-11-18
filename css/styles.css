@@ -378,7 +378,8 @@ header {
   background: #0f1d22;
   position: relative;
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-bottom: 150px; }
   .from_our_menu .title_wrapper h5 {
     padding-top: 16vh;
     margin: 0 auto 15px;
@@ -390,34 +391,40 @@ header {
     font-size: 19px;
     line-height: 120%;
     color: #c9ab81; }
-  .from_our_menu .card h5,
-  .from_our_menu .card h4 {
-    font-family: Caviar Dreams;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #c9ab81; }
-  .from_our_menu .card h5 {
-    font-size: 14px;
-    letter-spacing: 0.2em;
-    margin: 40px 0px 10px 14vw; }
-  .from_our_menu .card h4 {
-    font-size: 19px;
-    letter-spacing: 0.04em;
-    margin: 0px 0px 10px 14vw; }
-  .from_our_menu .card p {
-    font-family: Josefin Sans;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 29px;
-    letter-spacing: 0.04em;
-    margin: 0px 14vw; }
-  .from_our_menu .butt {
-    margin-top: 65px; }
+  .from_our_menu .card_wrapper {
+    margin-bottom: 70px; }
+    .from_our_menu .card_wrapper .card h5,
+    .from_our_menu .card_wrapper .card h4 {
+      font-family: Caviar Dreams;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #c9ab81; }
+    .from_our_menu .card_wrapper .card h5 {
+      font-size: 14px;
+      letter-spacing: 0.2em;
+      margin: 40px 0px 10px 14vw; }
+    .from_our_menu .card_wrapper .card h4 {
+      font-size: 19px;
+      letter-spacing: 0.04em;
+      margin: 0px 0px 10px 14vw; }
+    .from_our_menu .card_wrapper .card p {
+      font-family: Josefin Sans;
+      font-weight: normal;
+      font-size: 19px;
+      line-height: 29px;
+      letter-spacing: 0.04em;
+      margin: 0px 14vw; }
+  .from_our_menu .btn_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .from_our_menu .btn_wrap .btn {
+      margin: 0 auto; }
   .from_our_menu .circle_pattern img {
     display: none; }
   @media only screen and (min-width: 768px) {
     .from_our_menu {
-      padding-bottom: 104px; }
+      padding-bottom: 100px; }
       .from_our_menu .title_wrapper h3 {
         width: max-content;
         margin: 0px 60px;
@@ -425,8 +432,8 @@ header {
       .from_our_menu .title_wrapper .left_svg,
       .from_our_menu .title_wrapper .right_svg {
         margin: initial; }
-      .from_our_menu .butt {
-        margin-top: 65px; }
+      .from_our_menu .btn {
+        margin: 0 auto; }
       .from_our_menu .circle_pattern {
         width: 270px;
         height: 270px;
@@ -464,9 +471,13 @@ header {
     .from_our_menu .butt {
       margin-top: 85px; } }
   @media only screen and (min-width: 1920px) {
+    .from_our_menu .card_wrapper {
+      margin-bottom: 100px; }
     .from_our_menu .circle_pattern {
       width: 325px;
-      height: 325px; } }
+      height: 325px;
+      left: -73px;
+      bottom: -118px; } }
 
 .chefs {
   width: 100%; }
@@ -602,7 +613,7 @@ header {
 .our_menu {
   background: #0f1d22;
   width: 100%;
-  padding-bottom: 2px; }
+  padding-bottom: 80px; }
   .our_menu .image_wrapper {
     overflow: hidden; }
     .our_menu .image_wrapper .top,

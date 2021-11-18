@@ -4,7 +4,7 @@
 	// z-index: -1;
 	width: 100%;
 	overflow: hidden;
-	// padding-bottom: 150px;
+	padding-bottom: 150px;
 	.title_wrapper {
 		h5 {
 			padding-top: 16vh;
@@ -19,37 +19,43 @@
 			color: #c9ab81;
 		}
 	}
-
-	.card {
-		h5,
-		h4 {
-			font-family: Caviar Dreams;
-			font-weight: bold;
-			text-transform: uppercase;
-			color: #c9ab81;
-		}
-		h5 {
-			font-size: 14px;
-			letter-spacing: 0.2em;
-			margin: 40px 0px 10px 14vw;
-		}
-		h4 {
-			font-size: 19px;
-			letter-spacing: 0.04em;
-			margin: 0px 0px 10px 14vw;
-		}
-		p {
-			font-family: Josefin Sans;
-			font-weight: normal;
-			font-size: 19px;
-			line-height: 29px;
-			letter-spacing: 0.04em;
-			margin: 0px 14vw;
+	.card_wrapper {
+		margin-bottom: 70px;
+		.card {
+			h5,
+			h4 {
+				font-family: Caviar Dreams;
+				font-weight: bold;
+				text-transform: uppercase;
+				color: #c9ab81;
+			}
+			h5 {
+				font-size: 14px;
+				letter-spacing: 0.2em;
+				margin: 40px 0px 10px 14vw;
+			}
+			h4 {
+				font-size: 19px;
+				letter-spacing: 0.04em;
+				margin: 0px 0px 10px 14vw;
+			}
+			p {
+				font-family: Josefin Sans;
+				font-weight: normal;
+				font-size: 19px;
+				line-height: 29px;
+				letter-spacing: 0.04em;
+				margin: 0px 14vw;
+			}
 		}
 	}
-	.butt {
-		margin-top: 65px;
-		// padding-bottom: 150px;
+	.btn_wrap {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.btn {
+			margin: 0 auto;
+		}
 	}
 	.circle_pattern {
 		img {
@@ -57,7 +63,7 @@
 		}
 	}
 	@media only screen and (min-width: 768px) {
-		padding-bottom: 104px;
+		padding-bottom: 100px;
 		.title_wrapper {
 			h3 {
 				width: max-content;
@@ -69,8 +75,9 @@
 				margin: initial;
 			}
 		}
-		.butt {
-			margin-top: 65px;
+		.btn {
+			// margin-top: 65px;
+			margin: 0 auto;
 			// padding-bottom: 110px;
 		}
 		.circle_pattern {
@@ -135,9 +142,14 @@
 		}
 	}
 	@media only screen and (min-width: 1920px) {
+		.card_wrapper {
+			margin-bottom: 100px;
+		}
 		.circle_pattern {
 			width: 325px;
 			height: 325px;
+			left: -73px;
+			bottom: -118px;
 		}
 	}
 }
