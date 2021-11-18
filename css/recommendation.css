@@ -19,7 +19,7 @@
       left: 12.8vw;
       width: 74.2vw;
       height: 100%;
-      background: rgba(0, 0, 0, 0.3); }
+      background: rgba(0, 0, 0, 0.2); }
   .recommendation .content_wrapper .title_Wrapper h3 {
     letter-spacing: 0.05em; }
   .recommendation .btn {
@@ -31,7 +31,7 @@
     .recommendation .content_wrapper .title_Wrapper h3 {
       width: min-content;
       line-height: 1.31em;
-      letter-spacing: 0.08em; } }
+      letter-spacing: 0.2em; } }
   @media only screen and (min-width: 1440px) and (orientation: landscape) {
     .recommendation {
       display: flex;
@@ -61,7 +61,7 @@
         .recommendation .content_wrapper .title_Wrapper h3 {
           width: min-content;
           line-height: 1.31em;
-          letter-spacing: 0.08em; }
+          letter-spacing: 0.2em; }
         .recommendation .content_wrapper p {
           width: 80%;
           margin-bottom: 50px; }

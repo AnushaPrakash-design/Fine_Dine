@@ -16,6 +16,12 @@ header {
       color: #c9ab81; }
     header nav img {
       margin-left: auto; }
+  @media only screen and (min-width: 1440px) and (orientation: landscape) {
+    header nav {
+      padding: 3vh 7vw; } }
+  @media only screen and (min-width: 1900px) {
+    header nav {
+      padding: 3vh 5vw; } }
 
 .landing_page {
   height: 92vh;
@@ -177,10 +183,16 @@ header {
         height: 100%;
         width: 100%; } }
 
+@media only screen and (min-width: 1024px) {
+  .about_us .content_wrapper .title_Wrapper h3 {
+    font-size: 48px; } }
+
 @media only screen and (min-width: 1440px) and (orientation: landscape) {
+  .about_us .content_wrapper .title_Wrapper h3 {
+    font-size: 48px; }
   .about_us .image_wrapper {
     height: 470px;
-    width: 75vw;
+    width: 70vw;
     margin: 0 auto 150px;
     grid-gap: 2%; }
     .about_us .image_wrapper .pattern .pattern_ipad,
@@ -193,7 +205,7 @@ header {
 @media only screen and (min-width: 1920px) {
   .about_us .image_wrapper {
     height: 600px;
-    width: 70vw;
+    width: 65vw;
     margin: 0 auto 160px;
     grid-gap: 3%; }
     .about_us .image_wrapper .pattern .pattern_ipad,
@@ -311,7 +323,7 @@ header {
       left: 12.8vw;
       width: 74.2vw;
       height: 100%;
-      background: rgba(0, 0, 0, 0.3); }
+      background: rgba(0, 0, 0, 0.2); }
   .recommendation .content_wrapper .title_Wrapper h3 {
     letter-spacing: 0.05em; }
   .recommendation .btn {
@@ -323,7 +335,7 @@ header {
     .recommendation .content_wrapper .title_Wrapper h3 {
       width: min-content;
       line-height: 1.31em;
-      letter-spacing: 0.08em; } }
+      letter-spacing: 0.2em; } }
   @media only screen and (min-width: 1440px) and (orientation: landscape) {
     .recommendation {
       display: flex;
@@ -353,7 +365,7 @@ header {
         .recommendation .content_wrapper .title_Wrapper h3 {
           width: min-content;
           line-height: 1.31em;
-          letter-spacing: 0.08em; }
+          letter-spacing: 0.2em; }
         .recommendation .content_wrapper p {
           width: 80%;
           margin-bottom: 50px; }
@@ -444,6 +456,9 @@ header {
           display: block;
           width: 100%;
           height: 100%; } }
+  @media only screen and (min-width: 1024px) {
+    .from_our_menu .title_Wrapper h3 {
+      font-size: 48px; } }
   @media only screen and (min-width: 1440px) and (orientation: landscape) {
     .from_our_menu .card_wrapper {
       display: flex;
@@ -515,16 +530,15 @@ header {
       height: 100%;
       top: 0;
       margin: 0 auto;
-      background: rgba(0, 0, 0, 0.1); }
-    .chefs .image_wrapper .bottom_img_overlay {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      margin: 0 auto;
       background: #d3a28e;
       mix-blend-mode: color;
       opacity: 0.3; }
+  .chefs .bottom_img_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: 0 auto; }
   .chefs .content_wrapper {
     margin-bottom: 100px;
     margin-top: 120px; }
@@ -559,7 +573,9 @@ header {
           height: 100%;
           width: 100%; }
     .chefs .content_wrapper h5 {
-      margin-top: 0px; } }
+      margin-top: 0px; }
+    .chefs .content_wrapper .title_wrapper h3 {
+      letter-spacing: 0.2em; } }
   @media only screen and (min-width: 1024px) {
     .chefs .image_wrapper {
       height: 568px;
@@ -589,7 +605,7 @@ header {
         .chefs .content_wrapper .title_Wrapper h3 {
           width: max-content;
           line-height: 1.31em;
-          letter-spacing: 0.08em; }
+          letter-spacing: 0.2em; }
         .chefs .content_wrapper p {
           width: 65%;
           margin-bottom: 40px; }
@@ -682,6 +698,10 @@ header {
     .our_menu .mid,
     .our_menu .bot {
       height: 500px; } }
+
+@media only screen and (min-width: 1024px) and (min-width: 1024px) {
+  .our_menu .content_wrapper .title_Wrapper h3 {
+    font-size: 48px; } }
   @media only screen and (min-width: 1024px) {
     .our_menu .image_wrapper {
       display: flex;

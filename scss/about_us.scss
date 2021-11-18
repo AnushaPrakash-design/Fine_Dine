@@ -121,10 +121,26 @@
 			}
 		}
 	}
+	@media only screen and (min-width: 1024px) {
+		.content_wrapper {
+			.title_Wrapper {
+				h3 {
+					font-size: 48px;
+				}
+			}
+		}
+	}
 	@media only screen and (min-width: 1440px) and (orientation: landscape) {
+		.content_wrapper {
+			.title_Wrapper {
+				h3 {
+					font-size: 48px;
+				}
+			}
+		}
 		.image_wrapper {
 			height: 470px;
-			width: 75vw;
+			width: 70vw;
 			margin: 0 auto 150px;
 			grid-gap: 2%;
 
@@ -143,7 +159,7 @@
 	@media only screen and (min-width: 1920px) {
 		.image_wrapper {
 			height: 600px;
-			width: 70vw;
+			width: 65vw;
 			margin: 0 auto 160px;
 			grid-gap: 3%;
 

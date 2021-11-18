@@ -68,6 +68,10 @@
     .our_menu .mid,
     .our_menu .bot {
       height: 500px; } }
+
+@media only screen and (min-width: 1024px) and (min-width: 1024px) {
+  .our_menu .content_wrapper .title_Wrapper h3 {
+    font-size: 48px; } }
   @media only screen and (min-width: 1024px) {
     .our_menu .image_wrapper {
       display: flex;

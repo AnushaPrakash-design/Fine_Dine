@@ -87,10 +87,16 @@
         height: 100%;
         width: 100%; } }
 
+@media only screen and (min-width: 1024px) {
+  .about_us .content_wrapper .title_Wrapper h3 {
+    font-size: 48px; } }
+
 @media only screen and (min-width: 1440px) and (orientation: landscape) {
+  .about_us .content_wrapper .title_Wrapper h3 {
+    font-size: 48px; }
   .about_us .image_wrapper {
     height: 470px;
-    width: 75vw;
+    width: 70vw;
     margin: 0 auto 150px;
     grid-gap: 2%; }
     .about_us .image_wrapper .pattern .pattern_ipad,
@@ -103,7 +109,7 @@
 @media only screen and (min-width: 1920px) {
   .about_us .image_wrapper {
     height: 600px;
-    width: 70vw;
+    width: 65vw;
     margin: 0 auto 160px;
     grid-gap: 3%; }
     .about_us .image_wrapper .pattern .pattern_ipad,

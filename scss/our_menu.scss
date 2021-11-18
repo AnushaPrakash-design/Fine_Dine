@@ -80,6 +80,15 @@
 	}
 	@media only screen and (min-width: 1024px) {
 		// margin-bottom: 100px;
+		@media only screen and (min-width: 1024px) {
+			.content_wrapper {
+				.title_Wrapper {
+					h3 {
+						font-size: 48px;
+					}
+				}
+			}
+		}
 		.image_wrapper {
 			display: flex;
 			align-items: center;

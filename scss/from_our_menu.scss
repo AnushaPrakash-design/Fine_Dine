@@ -95,7 +95,13 @@
 			}
 		}
 	}
-
+	@media only screen and (min-width: 1024px) {
+		.title_Wrapper {
+			h3 {
+				font-size: 48px;
+			}
+		}
+	}
 	@media only screen and (min-width: 1440px) and (orientation: landscape) {
 		.card_wrapper {
 			display: flex;
